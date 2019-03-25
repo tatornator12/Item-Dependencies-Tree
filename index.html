@@ -17,21 +17,84 @@
   stroke: #ccc;
   stroke-width: 2px;
 }
+  
+.item-type {
+    margin: 0 !important;
+}
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.app { background: #FF7F0E;}
+.map { background: #4682B4;}
+.layer { background: #F0E68c;
+}
+
+#legend{
+    overflow:hidden;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
 
 </style>
 
 <body>
 
+  <div id="legend">
+    <h3>Legend</h3>
+	   <div class="legend"> <p class="item-type"><span class="key-dot app"></span>Web Application</p> </div>
+	   <div class="legend"> <p class="item-type"><span class="key-dot map"></span>Web Map</p> </div>
+	   <div class="legend"> <p class="item-type"><span class="key-dot layer"></span>Layer</p> </div>
+	</div>
+  
 <!-- load the d3.js library -->	
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+<script> 
+  
 d3.json("https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/data.json", function(error, data) {
-   
-  // Set the dimensions and margins of the diagram
-var margin = {top: 20, right: 90, bottom: 30, left: 90},
+
+
+// Calculate total nodes, max label length
+var totalNodes = 0;
+var maxLabelLength = 0;
+  
+// Set the dimensions and margins of the diagram
+var margin = {top: 20, right: 90, bottom: 30, left: 150},
     width = Math.max(960, window.innerWidth) - margin.left - margin.right,
     height = Math.max(500, window.innerHeight) - margin.top - margin.bottom;
+
+// A recursive helper function for performing some setup by walking through all nodes
+
+    function visit(parent, visitFn, childrenFn) {
+        if (!parent) return;
+
+        visitFn(parent);
+
+        var children = childrenFn(parent);
+        if (children) {
+            var count = children.length;
+            for (var i = 0; i < count; i++) {
+                visit(children[i], visitFn, childrenFn);
+            }
+        }
+    }
+
+// Call visit function to establish maxLabelLength
+    visit(data, function(d) {
+        totalNodes++;
+        maxLabelLength = Math.max(d.name.length, maxLabelLength);
+
+    }, function(d) {
+        return d.children && d.children.length > 0 ? d.children : null;
+    });
 
 // append the svg object to the body of the page
 // appends a 'group' element to 'svg'
@@ -42,7 +105,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate("
           + margin.left + "," + margin.top + ")");
-
+  
 var i = 0,
     duration = 750,
     root;
@@ -50,10 +113,14 @@ var i = 0,
 // declares a tree layout and assigns the size
 var treemap = d3.tree().size([height, width]);
 
+  
 // Assigns parent, children, height, depth
 root = d3.hierarchy(data, function(d) { return d.children; });
 root.x0 = height / 2;
 root.y0 = 0;
+root.sort(function(a, b) {
+            return b.data.name.toLowerCase() < a.data.name.toLowerCase() ? 1 : -1;
+        });
 
 // Collapse after the second level
 root.children.forEach(collapse);
@@ -70,7 +137,7 @@ function collapse(d) {
 }
 
 function update(source) {
-
+  
   // Assigns the x and y position for the nodes
   var data = treemap(root);
 
@@ -79,7 +146,7 @@ function update(source) {
       links = data.descendants().slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d){ d.y = d.depth * 180});
+  nodes.forEach(function(d){ d.y = (d.depth * (maxLabelLength * 4))});
 
   // ****************** Nodes section ***************************
 
@@ -110,13 +177,14 @@ function update(source) {
   nodeEnter.append('text')
       .attr("dy", ".35em")
       .attr("x", function(d) {
-          return d.children || d._children ? -13 : 13;
+          return d.children || d._children ? -15 : 15;
       })
       .attr("text-anchor", function(d) {
           return d.children || d._children ? "end" : "start";
       })
       .text(function(d) { return d.data.name; });
-
+  
+  
   // UPDATE
   var nodeUpdate = nodeEnter.merge(node);
 
@@ -199,7 +267,7 @@ function update(source) {
 
     return path
   }
-
+  
   // Toggle children on click.
   function click(d) {
     if (d.children) {
