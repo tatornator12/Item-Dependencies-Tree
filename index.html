@@ -28,6 +28,10 @@
     width: 10px;
 }
 
+  .overlay{
+      background-color:#EEE;
+  }
+  
 .app { background: #FF7F0E;}
 .map { background: #4682B4;}
 .layer { background: #F0E68c;
@@ -81,6 +85,10 @@ d3.json("https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/m
 // Calculate total nodes, max label length
 var totalNodes = 0;
 var maxLabelLength = 0;
+
+// panning variables
+var panSpeed = 200;
+var panBoundary = 20;
   
 // Set the dimensions and margins of the diagram
 var margin = {top: 20, right: 90, bottom: 30, left: 150},
@@ -112,12 +120,16 @@ var margin = {top: 20, right: 90, bottom: 30, left: 150},
         return d.children && d.children.length > 0 ? d.children : null;
     });
 
+
 // append the svg object to the body of the page
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
+    .call(d3.zoom().on("zoom", function () {
+              svg.attr("transform", d3.event.transform)
+      }))
   .append("g")
     .attr("transform", "translate("
           + margin.left + "," + margin.top + ")");
@@ -133,6 +145,7 @@ var i = 0,
 
 // declares a tree layout and assigns the size
 var treemap = d3.tree().size([height, width]);
+
 
   
 // Assigns parent, children, height, depth
@@ -157,6 +170,7 @@ function collapse(d) {
   }
 }
 
+  
 function update(source) {
   
   // Assigns the x and y position for the nodes
@@ -167,7 +181,7 @@ function update(source) {
       links = data.descendants().slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d){ d.y = (d.depth * (maxLabelLength * 4))});
+  nodes.forEach(function(d){ d.y = (d.depth * (maxLabelLength * 6))});
 
   // ****************** Nodes section ***************************
 
@@ -200,7 +214,7 @@ function update(source) {
             .style("stroke", "black");
           div.html("<i>" + "<font size = 2>" + d.data.type + "</font>" + "</i>" + "<br/>" + "<br/>" + d.data.id + "<br/>" + "<br/>" + '<a href= "' + d.data.url + '" >' + d.data.url + "</a>")
             .style("left", (d3.event.pageX - 110) + "px")
-            .style("top", (d3.event.pageY - 120) + "px");
+            .style("top", (d3.event.pageY - 140) + "px");
         })
         .on("mouseout", function(d) {
           div.transition()
