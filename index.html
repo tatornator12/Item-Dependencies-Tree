@@ -42,7 +42,23 @@
     position: absolute;
 }
 
-
+div.tooltip {   
+  position: absolute;     
+  text-align: left;
+  width: 220px;                  
+  height: 100px;                 
+  padding: 10px; 
+  color: #000000;          
+  font-size: 12px;
+  font-weight: bold;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 4px #888888;
+  border: 3px;  
+  border-radius: 3px;
+  word-wrap: break-word;
+  overflow-x: auto;
+}
+  
 </style>
 
 <body>
@@ -105,6 +121,11 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate("
           + margin.left + "," + margin.top + ")");
+  
+// Define the tooltip for hover-over info windows
+var div = d3.select("body").append("div")   
+  	.attr("class", "tooltip")               
+  	.style("opacity", 0);
   
 var i = 0,
     duration = 750,
@@ -171,7 +192,21 @@ function update(source) {
       })
       .style("stroke", function(d) {
           return d.data.type == "Web Mapping Application" ? "darkorange" : d.data.type == "Web Map" ? "steelblue" : typeof d.data.type == "undefined" ? "lightslategrey" : "khaki";
-      });
+      })
+        .on("mouseover", function(d) {
+          div.transition()
+            .duration(200)
+            .style("opacity", .8)
+            .style("stroke", "black");
+          div.html("<i>" + "<font size = 2>" + d.data.type + "</font>" + "</i>" + "<br/>" + "<br/>" + d.data.id + "<br/>" + "<br/>" + '<a href= "' + d.data.url + '" >' + d.data.url + "</a>")
+            .style("left", (d3.event.pageX - 110) + "px")
+            .style("top", (d3.event.pageY - 120) + "px");
+        })
+        .on("mouseout", function(d) {
+          div.transition()
+            .duration(4000)
+            .style("opacity", 0);
+        });
 
   // Add labels for the nodes
   nodeEnter.append('text')
