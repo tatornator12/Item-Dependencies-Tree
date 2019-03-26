@@ -28,9 +28,6 @@
     width: 10px;
 }
 
-  .overlay{
-      background-color:#EEE;
-  }
   
 .app { background: #FF7F0E;}
 .map { background: #4682B4;}
@@ -44,6 +41,8 @@
     padding-bottom: 10px;
     padding-right: 10px;
     position: absolute;
+    background-color: white;
+    opacity: 0.8;
 }
 
 div.tooltip {   
@@ -62,7 +61,8 @@ div.tooltip {
   word-wrap: break-word;
   overflow-x: auto;
 }
-  
+
+
 </style>
 
 <body>
@@ -81,15 +81,10 @@ div.tooltip {
   
 d3.json("https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/data.json", function(error, data) {
 
-
 // Calculate total nodes, max label length
 var totalNodes = 0;
 var maxLabelLength = 0;
 
-// panning variables
-var panSpeed = 200;
-var panBoundary = 20;
-  
 // Set the dimensions and margins of the diagram
 var margin = {top: 20, right: 90, bottom: 30, left: 150},
     width = Math.max(960, window.innerWidth) - margin.left - margin.right,
