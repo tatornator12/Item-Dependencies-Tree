@@ -1,1 +1,2053 @@
-{"name": "admin", "children": [{"name": "Test Compare", "type": "Web Mapping Application", "id": "04635202860d46f09dc07f8d218fb0e0", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=04635202860d46f09dc07f8d218fb0e0", "children": []}, {"name": "ddf", "type": "Web Mapping Application", "id": "8ac3e3ed2cd147d083edddcb2ca9e9a8", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=8ac3e3ed2cd147d083edddcb2ca9e9a8", "children": []}, {"name": "Snapped Data", "type": "Web Mapping Application", "id": "27e49dc4f5944bcfba1f80301257f924", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=27e49dc4f5944bcfba1f80301257f924", "children": [{"name": "Snapped Data", "type": "Web Map", "id": "d7b5c6ebcf334e52be4888ceefb7eae4", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d7b5c6ebcf334e52be4888ceefb7eae4", "children": [{"name": "Snapped Crashes", "type": "ArcGISMapServiceLayer", "id": "20eb315452c146f4b6ff4d41d8496b02", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/NHS_SpatialJoin_CrashCount/MapServer"}, {"name": "NHS (Time)", "type": "ArcGISFeatureLayer", "id": "50886bd60ea04a87ab7c40fb12060882", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHS_SpatialJoin_CrashCount/FeatureServer/1"}, {"name": "FARS (Time)", "type": "ArcGISFeatureLayer", "id": "50886bd60ea04a87ab7c40fb12060882", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHS_SpatialJoin_CrashCount/FeatureServer/0"}]}]}, {"name": "Where are similar fatal accidents?", "type": "Web Mapping Application", "id": "d96114c2f54d461e8452f4ffa3005b97", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d96114c2f54d461e8452f4ffa3005b97", "children": []}, {"name": "Step 2: Measuring Spatial Clustering of Fatal Interstate Crashes and Crash Rates", "type": "Web Mapping Application", "id": "951a6ddcc4e9497bb87badc86d8068f6", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=951a6ddcc4e9497bb87badc86d8068f6", "children": [{"name": "Optimized Hot Spot Analysis of Crash Rates", "type": "Web Map", "id": "c3afadef58304030ab27fa4cc2bd330b", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b", "children": [{"name": "NHTSA_1_Optimized Hot Spots Sequence_VT", "type": "VectorTileLayer", "id": "a2fe387654144f72b56fbdd2b0af3b1c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"}]}, {"name": "NHTSA Compare Web App", "type": "Web Mapping Application", "id": "9eda40d3087d4c99b8d64cfbb841463b", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9eda40d3087d4c99b8d64cfbb841463b", "children": []}, {"name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes", "type": "Web Map", "id": "0e8ef91676e64b868e7940e4b560eaa9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9", "children": [{"name": "NHTSA_2_Density_based Clustering Sequence_VT", "type": "VectorTileLayer", "id": "02eefe8bceab48d18197116e12f2e421", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"}]}]}, {"name": "Map Basic", "type": "Web Mapping Application", "id": "645ee717097f4c9e96cdbe3a309cc62c", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=645ee717097f4c9e96cdbe3a309cc62c", "children": [{"name": "Accidnet Processing", "type": "Web Map", "id": "98621991bcf74783a92d30c8f9c258d9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9", "children": [{"name": "FARS Accidents 2002 - 2016", "type": "ArcGISFeatureLayer", "id": "81087e7fcfe94677831007f5c2d1c062", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"}, {"name": "TIGER Road Data", "type": "ArcGISFeatureLayer", "id": "f42d3688636f43eb955c1282c0fdba79", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"}, {"name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data", "type": "ArcGISFeatureLayer", "id": "cc56c2a7862349fc9168c57b7a870558", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"}]}]}, {"name": "NHTSA Compare Web App", "type": "Web Mapping Application", "id": "9eda40d3087d4c99b8d64cfbb841463b", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9eda40d3087d4c99b8d64cfbb841463b", "children": []}, {"name": "map swipe4", "type": "Web Mapping Application", "id": "5536fea013714be1b5f682956834f019", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5536fea013714be1b5f682956834f019", "children": [{"name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes", "type": "Web Map", "id": "0e8ef91676e64b868e7940e4b560eaa9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9", "children": [{"name": "NHTSA_2_Density_based Clustering Sequence_VT", "type": "VectorTileLayer", "id": "02eefe8bceab48d18197116e12f2e421", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"}]}]}, {"name": "test34", "type": "Web Mapping Application", "id": "f9cc57f2b4e042aa9a27b3427ec6cdd9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f9cc57f2b4e042aa9a27b3427ec6cdd9", "children": [{"name": "Topographic", "type": "Web Map", "id": "9d98f7113f9b469c8c302b210db7b922", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9d98f7113f9b469c8c302b210db7b922", "children": []}]}, {"name": "Map Swipe", "type": "Web Mapping Application", "id": "c3168f36ad7742bbaf84136fcc2b77bb", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3168f36ad7742bbaf84136fcc2b77bb", "children": [{"name": "Data Preparation Web Map", "type": "Web Map", "id": "b48fc9ec6c94426b99ec99965b0f3800", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800", "children": [{"name": "HPMS 2016 Filtered", "type": "VectorTileLayer", "id": "f59eeba9c85940c490146b83473b458c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_Filtered/VectorTileServer/resources/styles/root.json"}, {"name": "Florida Interstate", "type": "ArcGISMapServiceLayer", "id": "24bdeb30548c416a8d7ac44928629214", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/Florida_Interstate/MapServer"}, {"name": "FARS 2016", "type": "ArcGISFeatureLayer", "id": "1f110cee668b42d4b797952ef34e4598", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016/FeatureServer/0"}]}, {"name": "Accidnet Processing", "type": "Web Map", "id": "98621991bcf74783a92d30c8f9c258d9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9", "children": [{"name": "FARS Accidents 2002 - 2016", "type": "ArcGISFeatureLayer", "id": "81087e7fcfe94677831007f5c2d1c062", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"}, {"name": "TIGER Road Data", "type": "ArcGISFeatureLayer", "id": "f42d3688636f43eb955c1282c0fdba79", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"}, {"name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data", "type": "ArcGISFeatureLayer", "id": "cc56c2a7862349fc9168c57b7a870558", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"}]}]}, {"name": "Zones of Concern: Spatial Analysis of Fatal Interstate Crashes", "type": "Web Mapping Application", "id": "789feb2e72514838bf4ffc573b8bdc8e", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=789feb2e72514838bf4ffc573b8bdc8e", "children": [{"name": "Story Map - Fatal Accidents Analysis - Part 1: Introduction", "type": "Web Mapping Application", "id": "62ed2d94cac04311871ae0c0f48e34dc", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=62ed2d94cac04311871ae0c0f48e34dc", "children": [{"name": "NHTSA Basic Starting Map", "type": "Web Map", "id": "2a3ab1a04d254f9c84df16c8805270c9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9", "children": [{"name": "World Transportation", "type": "ArcGISTiledMapServiceLayer", "id": "94f838a535334cf1aa061846514b77c7", "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"}, {"name": "NHTSA Fatal Highway Crash Events in 2016", "type": "ArcGISFeatureLayer", "id": "668d3b339cdf4292bfbc2f6f00a21653", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"}, {"name": "NHTSA National Interstates HPMS", "type": "ArcGISFeatureLayer", "id": "2ad0ca994c694cc590330a8822a8de5b", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"}]}]}, {"name": "Step 1: Ask a Question and Establish our Analysis", "type": "Web Mapping Application", "id": "9925af10e59a4c87852942c98ef9c55d", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9925af10e59a4c87852942c98ef9c55d", "children": [{"name": "NHTSA Basic Starting Map", "type": "Web Map", "id": "2a3ab1a04d254f9c84df16c8805270c9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9", "children": [{"name": "World Transportation", "type": "ArcGISTiledMapServiceLayer", "id": "94f838a535334cf1aa061846514b77c7", "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"}, {"name": "NHTSA Fatal Highway Crash Events in 2016", "type": "ArcGISFeatureLayer", "id": "668d3b339cdf4292bfbc2f6f00a21653", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"}, {"name": "NHTSA National Interstates HPMS", "type": "ArcGISFeatureLayer", "id": "2ad0ca994c694cc590330a8822a8de5b", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"}]}, {"name": "Clustering Analysis of Fatal Interstate Accidents", "type": "Web Map", "id": "2ca92ba0daff4b87a7e7e8dd85cf9409", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409", "children": [{"name": "World_Transportation", "type": "ArcGISTiledMapServiceLayer", "id": "", "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"}, {"name": "Navigation Basemap", "type": "VectorTileLayer", "id": "", "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"}, {"name": "HPMS_Point_Segments_CrashRates_VT", "type": "VectorTileLayer", "id": "38edb1cee0ad471da461b97849b03291", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"}, {"name": "Comparative Zones of Concern", "type": "ArcGISFeatureLayer", "id": "8a73d3480bea47eaae5e2cd71e7bebc5", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"}, {"name": "FARS2016_DBSCAN_3mfc_5000ft", "type": "ArcGISFeatureLayer", "id": "1a388fdce89048119bc2f95c2d5e25eb", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"}, {"name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist", "type": "ArcGISFeatureLayer", "id": "6b76b155c9904c42989564c1c465efb6", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"}, {"name": "Interstates_FARS_2016_HotSpots", "type": "ArcGISFeatureLayer", "id": "9e5312393b074532a7bbb2ee65a53f5f", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"}, {"name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National", "type": "ArcGISFeatureLayer", "id": "e7b72995b5c245c98b6988641e122c8a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"}, {"name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS", "type": "ArcGISFeatureLayer", "id": "e7b72995b5c245c98b6988641e122c8a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"}, {"name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016", "type": "ArcGISFeatureLayer", "id": "e7b72995b5c245c98b6988641e122c8a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"}, {"name": "OHS_StdDistance_2SD", "type": "ArcGISFeatureLayer", "id": "ecf40f0c6c384a3daea220fb7085e3c3", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"}, {"name": "World Light Gray Reference", "type": "ArcGISTiledMapServiceLayer", "id": "", "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"}]}]}, {"name": "Step 2: Measuring Spatial Clustering of Fatal Interstate Crashes and Crash Rates", "type": "Web Mapping Application", "id": "951a6ddcc4e9497bb87badc86d8068f6", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=951a6ddcc4e9497bb87badc86d8068f6", "children": [{"name": "Optimized Hot Spot Analysis of Crash Rates", "type": "Web Map", "id": "c3afadef58304030ab27fa4cc2bd330b", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b", "children": [{"name": "NHTSA_1_Optimized Hot Spots Sequence_VT", "type": "VectorTileLayer", "id": "a2fe387654144f72b56fbdd2b0af3b1c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"}]}, {"name": "NHTSA Compare Web App", "type": "Web Mapping Application", "id": "9eda40d3087d4c99b8d64cfbb841463b", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9eda40d3087d4c99b8d64cfbb841463b", "children": []}, {"name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes", "type": "Web Map", "id": "0e8ef91676e64b868e7940e4b560eaa9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9", "children": [{"name": "NHTSA_2_Density_based Clustering Sequence_VT", "type": "VectorTileLayer", "id": "02eefe8bceab48d18197116e12f2e421", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"}]}]}, {"name": "Step 3: Exploring Ranked Zones of Concern", "type": "Web Mapping Application", "id": "d335b559d2f24ec29ad6a0c15244a6df", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d335b559d2f24ec29ad6a0c15244a6df", "children": [{"name": "NHTSA Zones of Interest Map (Regional)", "type": "Web Map", "id": "14fb9f3252304257a6a41292ba3c0660", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660", "children": [{"name": "NHTSA National Rankings Map VT V2", "type": "VectorTileLayer", "id": "015cfe8cc27b4688b39d890fcd3cae92", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA Regional Rankings Map VT V2", "type": "VectorTileLayer", "id": "4f4d07fbd50e42da9aeaee820975180c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA State Rankings Map VT V2", "type": "VectorTileLayer", "id": "e839ee4991cd4794ba2ab254b14eb1f1", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}]}, {"name": "NHTSA Zones of Interest Map (State)", "type": "Web Map", "id": "6a8f2d9b946f492d8b7b9b63e80f15a3", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6a8f2d9b946f492d8b7b9b63e80f15a3", "children": [{"name": "NHTSA National Rankings Map VT V2", "type": "VectorTileLayer", "id": "015cfe8cc27b4688b39d890fcd3cae92", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA Regional Rankings Map VT V2", "type": "VectorTileLayer", "id": "4f4d07fbd50e42da9aeaee820975180c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA State Rankings Map VT V2", "type": "VectorTileLayer", "id": "e839ee4991cd4794ba2ab254b14eb1f1", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}]}]}, {"name": "Conclusion - NHTSA Analysis Takeaways", "type": "Web Mapping Application", "id": "cf041e66e6964677a5a10744ec52c608", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=cf041e66e6964677a5a10744ec52c608", "children": []}]}, {"name": "sdsdsd", "type": "Web Mapping Application", "id": "23edd22e047b44e7be262336825d1728", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=23edd22e047b44e7be262336825d1728", "children": [{"name": "Accidnet Processing", "type": "Web Map", "id": "98621991bcf74783a92d30c8f9c258d9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9", "children": [{"name": "FARS Accidents 2002 - 2016", "type": "ArcGISFeatureLayer", "id": "81087e7fcfe94677831007f5c2d1c062", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"}, {"name": "TIGER Road Data", "type": "ArcGISFeatureLayer", "id": "f42d3688636f43eb955c1282c0fdba79", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"}, {"name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data", "type": "ArcGISFeatureLayer", "id": "cc56c2a7862349fc9168c57b7a870558", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"}]}]}, {"name": "Crash Count Hot Spot Comparison", "type": "Web Mapping Application", "id": "f83e641fa6eb43a6a28e6650065980e2", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f83e641fa6eb43a6a28e6650065980e2", "children": [{"name": "CrashCount_002mile_TILE", "type": "Web Map", "id": "311f4a8b0b344dffade8683067e7e318", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318", "children": [{"name": "CrashCount_HotSpot_02miles_Tile", "type": "ArcGISTiledMapServiceLayer", "id": "347491078b4c4d65a514bf1b6bc0975a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer"}]}, {"name": "CrashCount_005mile_TILE", "type": "Web Map", "id": "f0079c637deb4ff6b1b18f35d4b57f11", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11", "children": [{"name": "CrashCount_HotSpot_05miles_Tile", "type": "ArcGISTiledMapServiceLayer", "id": "07339f49790d4a508c0e66bb2be901e6", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer"}]}]}, {"name": "Interstate Baseline Analysis Data Preparation", "type": "Web Mapping Application", "id": "5ae5dc1824d745d18e404796a0fdb295", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5ae5dc1824d745d18e404796a0fdb295", "children": []}, {"name": "test", "type": "Web Mapping Application", "id": "b9641595d1d946e580697df16d9decf1", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b9641595d1d946e580697df16d9decf1", "children": []}, {"name": "Map Swipe2", "type": "Web Mapping Application", "id": "41ec8c23c9814bc9a0f51368f289c0d9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=41ec8c23c9814bc9a0f51368f289c0d9", "children": [{"name": "Data Preparation Web Map", "type": "Web Map", "id": "b48fc9ec6c94426b99ec99965b0f3800", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800", "children": [{"name": "HPMS 2016 Filtered", "type": "VectorTileLayer", "id": "f59eeba9c85940c490146b83473b458c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_Filtered/VectorTileServer/resources/styles/root.json"}, {"name": "Florida Interstate", "type": "ArcGISMapServiceLayer", "id": "24bdeb30548c416a8d7ac44928629214", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/Florida_Interstate/MapServer"}, {"name": "FARS 2016", "type": "ArcGISFeatureLayer", "id": "1f110cee668b42d4b797952ef34e4598", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016/FeatureServer/0"}]}, {"name": "Accidnet Processing", "type": "Web Map", "id": "98621991bcf74783a92d30c8f9c258d9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9", "children": [{"name": "FARS Accidents 2002 - 2016", "type": "ArcGISFeatureLayer", "id": "81087e7fcfe94677831007f5c2d1c062", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"}, {"name": "TIGER Road Data", "type": "ArcGISFeatureLayer", "id": "f42d3688636f43eb955c1282c0fdba79", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"}, {"name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data", "type": "ArcGISFeatureLayer", "id": "cc56c2a7862349fc9168c57b7a870558", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"}]}]}, {"name": "Crash Count vs Crash Rate Hot Spot Analysis", "type": "Web Mapping Application", "id": "47494412bbc5418eb041388acd48de91", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=47494412bbc5418eb041388acd48de91", "children": [{"name": "CrashCount_002mile_TILE", "type": "Web Map", "id": "311f4a8b0b344dffade8683067e7e318", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318", "children": [{"name": "CrashCount_HotSpot_02miles_Tile", "type": "ArcGISTiledMapServiceLayer", "id": "347491078b4c4d65a514bf1b6bc0975a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer"}]}, {"name": "CrashCount_005mile_TILE", "type": "Web Map", "id": "f0079c637deb4ff6b1b18f35d4b57f11", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11", "children": [{"name": "CrashCount_HotSpot_05miles_Tile", "type": "ArcGISTiledMapServiceLayer", "id": "07339f49790d4a508c0e66bb2be901e6", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer"}]}, {"name": "Crash Count Hot Spot Comparison", "type": "Web Mapping Application", "id": "f83e641fa6eb43a6a28e6650065980e2", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f83e641fa6eb43a6a28e6650065980e2", "children": [{"name": "CrashCount_002mile_TILE", "type": "Web Map", "id": "311f4a8b0b344dffade8683067e7e318", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318", "children": [{"name": "CrashCount_HotSpot_02miles_Tile", "type": "ArcGISTiledMapServiceLayer", "id": "347491078b4c4d65a514bf1b6bc0975a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer"}]}, {"name": "CrashCount_005mile_TILE", "type": "Web Map", "id": "f0079c637deb4ff6b1b18f35d4b57f11", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11", "children": [{"name": "CrashCount_HotSpot_05miles_Tile", "type": "ArcGISTiledMapServiceLayer", "id": "07339f49790d4a508c0e66bb2be901e6", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer"}]}]}, {"name": "HotSpot AllRoutes_002", "type": "Web Map", "id": "26c1831824ed44e0bf0dd76e8ed4d0aa", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa", "children": [{"name": "HotSpot_AllRoutes_002", "type": "ArcGISTiledMapServiceLayer", "id": "4f1876f043724541af6b1324e7167cc7", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer"}]}, {"name": "HotSpot AllRoutes_005", "type": "Web Map", "id": "c72d50ae9fb14539b9f264a8425d1f57", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57", "children": [{"name": "HotSpot_AllRoutes_005", "type": "ArcGISTiledMapServiceLayer", "id": "ac8503faba474da2b53453d79ab6d891", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer"}]}, {"name": "Crash Rate Hot Spot Comparison", "type": "Web Mapping Application", "id": "31173a53bbda48f3876892f8f5b87e93", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=31173a53bbda48f3876892f8f5b87e93", "children": [{"name": "HotSpot AllRoutes_002", "type": "Web Map", "id": "26c1831824ed44e0bf0dd76e8ed4d0aa", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa", "children": [{"name": "HotSpot_AllRoutes_002", "type": "ArcGISTiledMapServiceLayer", "id": "4f1876f043724541af6b1324e7167cc7", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer"}]}, {"name": "HotSpot AllRoutes_005", "type": "Web Map", "id": "c72d50ae9fb14539b9f264a8425d1f57", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57", "children": [{"name": "HotSpot_AllRoutes_005", "type": "ArcGISTiledMapServiceLayer", "id": "ac8503faba474da2b53453d79ab6d891", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer"}]}]}, {"name": "Snapped vs Not-Snapped Comparison", "type": "Web Map", "id": "0b57b3800e5444ae8d3c33d45757b294", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0b57b3800e5444ae8d3c33d45757b294", "children": [{"name": "FARS_Snapped_005", "type": "ArcGISFeatureLayer", "id": "d1555ba4fe18476b939de13018172f0f", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped_005/FeatureServer/0"}, {"name": "HPMS_2016", "type": "ArcGISFeatureLayer", "id": "fd0652a357974c99a4da595fbcb77711", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016/FeatureServer/0"}, {"name": "FARS_NotSnapped_005", "type": "ArcGISFeatureLayer", "id": "deb197941ec9461399b224967800cfb1", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_NotSnapped_005/FeatureServer/0"}]}, {"name": "HotSpot Route1_005", "type": "Web Map", "id": "5e5f2681eb444e3885181cd164dd231e", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5e5f2681eb444e3885181cd164dd231e", "children": [{"name": "HotSpot_Route1_005", "type": "ArcGISTiledMapServiceLayer", "id": "7c6810d047854689a2ba432207ba0541", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route1_005/MapServer"}]}, {"name": "HotSpot Route1_002", "type": "Web Map", "id": "e2a00c548b454931b3f631e477a782c2", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e2a00c548b454931b3f631e477a782c2", "children": [{"name": "HotSpot_Route1_002", "type": "ArcGISTiledMapServiceLayer", "id": "d43d7cacc19641a2b11026a4696584a8", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route1_002/MapServer"}]}, {"name": "HotSpot Route2_005", "type": "Web Map", "id": "6f50d70e19ad4a94b6c3dc0b79b6330d", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6f50d70e19ad4a94b6c3dc0b79b6330d", "children": [{"name": "HotSpot_Route2_005", "type": "ArcGISTiledMapServiceLayer", "id": "66b4b87d82444c01af561796ba14ceb7", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_005/MapServer"}]}, {"name": "HotSpot Route2_002", "type": "Web Map", "id": "eda72f171a66463e94145c283ca2c612", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=eda72f171a66463e94145c283ca2c612", "children": [{"name": "HotSpot_Route2_002", "type": "ArcGISTiledMapServiceLayer", "id": "a03060dcbbb54e8396597612f6a34e1e", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_002/MapServer"}]}, {"name": "HotSpot Route3_005", "type": "Web Map", "id": "2ec6f15916bb480ab5c8864109933d64", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ec6f15916bb480ab5c8864109933d64", "children": [{"name": "HotSpot_Route3_005", "type": "ArcGISTiledMapServiceLayer", "id": "9be9c90849d44fa996b829e0affc5105", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route3_005/MapServer"}]}, {"name": "HotSpot Route3_002", "type": "Web Map", "id": "e8311b88706e4d7493999ae4c8515e63", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e8311b88706e4d7493999ae4c8515e63", "children": [{"name": "HotSpot_Route3_002", "type": "ArcGISTiledMapServiceLayer", "id": "b08b4ae64a3d484a90d5ea1446da169a", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route3_002/MapServer"}]}]}, {"name": "Crash Rate Hot Spot Comparison", "type": "Web Mapping Application", "id": "31173a53bbda48f3876892f8f5b87e93", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=31173a53bbda48f3876892f8f5b87e93", "children": [{"name": "HotSpot AllRoutes_002", "type": "Web Map", "id": "26c1831824ed44e0bf0dd76e8ed4d0aa", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa", "children": [{"name": "HotSpot_AllRoutes_002", "type": "ArcGISTiledMapServiceLayer", "id": "4f1876f043724541af6b1324e7167cc7", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer"}]}, {"name": "HotSpot AllRoutes_005", "type": "Web Map", "id": "c72d50ae9fb14539b9f264a8425d1f57", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57", "children": [{"name": "HotSpot_AllRoutes_005", "type": "ArcGISTiledMapServiceLayer", "id": "ac8503faba474da2b53453d79ab6d891", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer"}]}]}, {"name": "PROTOTYPE: Snapped FARS 2007-2016 Web App", "type": "Web Mapping Application", "id": "5475a093796946999f4658fe4982b81d", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5475a093796946999f4658fe4982b81d", "children": [{"name": "Snapped Web Map", "type": "Web Map", "id": "54fcbfe126a240d3a82354d01f90eb0e", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=54fcbfe126a240d3a82354d01f90eb0e", "children": [{"name": "NHS", "type": "ArcGISMapServiceLayer", "id": "d833d740d26c411ca210ca8aaad4b5a3", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/NHS_Snapped_Generalization/MapServer"}, {"name": "FARS", "type": "ArcGISFeatureLayer", "id": "0705c45ef03f4cdaafcdaa179a7a71b0", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped/FeatureServer/0"}]}]}, {"name": "Crash Fatality Analysis", "type": "Web Mapping Application", "id": "f324cb7be442484cbeed7eddea1f2061", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f324cb7be442484cbeed7eddea1f2061", "children": [{"name": "Crash Fatality Analysis - Hexbins Web Map", "type": "Web Map", "id": "cbb029f85de944fbbbeba29a660803ad", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=cbb029f85de944fbbbeba29a660803ad", "children": [{"name": "Accident Trends (100 Miles radius over 4 months)", "type": "ArcGISFeatureLayer", "id": "56b34a40a42541f9aaaa24a69a705ad8", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Accident_Trends__100_Miles_radius_over_4_months/FeatureServer/0"}]}]}, {"name": "Map Journal", "type": "Web Mapping Application", "id": "c150f297a6184fef9c271f03712014e4", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c150f297a6184fef9c271f03712014e4", "children": [{"name": "NHTSA Zones of Interest Map (Regional)", "type": "Web Map", "id": "14fb9f3252304257a6a41292ba3c0660", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660", "children": [{"name": "NHTSA National Rankings Map VT V2", "type": "VectorTileLayer", "id": "015cfe8cc27b4688b39d890fcd3cae92", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA Regional Rankings Map VT V2", "type": "VectorTileLayer", "id": "4f4d07fbd50e42da9aeaee820975180c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA State Rankings Map VT V2", "type": "VectorTileLayer", "id": "e839ee4991cd4794ba2ab254b14eb1f1", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}]}, {"name": "Optimized Hot Spot Analysis of Crash Rates", "type": "Web Map", "id": "c3afadef58304030ab27fa4cc2bd330b", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b", "children": [{"name": "NHTSA_1_Optimized Hot Spots Sequence_VT", "type": "VectorTileLayer", "id": "a2fe387654144f72b56fbdd2b0af3b1c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"}]}, {"name": "Map Basic", "type": "Web Mapping Application", "id": "645ee717097f4c9e96cdbe3a309cc62c", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=645ee717097f4c9e96cdbe3a309cc62c", "children": [{"name": "Accidnet Processing", "type": "Web Map", "id": "98621991bcf74783a92d30c8f9c258d9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9", "children": [{"name": "FARS Accidents 2002 - 2016", "type": "ArcGISFeatureLayer", "id": "81087e7fcfe94677831007f5c2d1c062", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"}, {"name": "TIGER Road Data", "type": "ArcGISFeatureLayer", "id": "f42d3688636f43eb955c1282c0fdba79", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"}, {"name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data", "type": "ArcGISFeatureLayer", "id": "cc56c2a7862349fc9168c57b7a870558", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"}]}]}]}, {"name": "Step 3: Exploring Ranked Zones of Concern", "type": "Web Mapping Application", "id": "d335b559d2f24ec29ad6a0c15244a6df", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d335b559d2f24ec29ad6a0c15244a6df", "children": [{"name": "NHTSA Zones of Interest Map (Regional)", "type": "Web Map", "id": "14fb9f3252304257a6a41292ba3c0660", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660", "children": [{"name": "NHTSA National Rankings Map VT V2", "type": "VectorTileLayer", "id": "015cfe8cc27b4688b39d890fcd3cae92", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA Regional Rankings Map VT V2", "type": "VectorTileLayer", "id": "4f4d07fbd50e42da9aeaee820975180c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA State Rankings Map VT V2", "type": "VectorTileLayer", "id": "e839ee4991cd4794ba2ab254b14eb1f1", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}]}, {"name": "NHTSA Zones of Interest Map (State)", "type": "Web Map", "id": "6a8f2d9b946f492d8b7b9b63e80f15a3", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6a8f2d9b946f492d8b7b9b63e80f15a3", "children": [{"name": "NHTSA National Rankings Map VT V2", "type": "VectorTileLayer", "id": "015cfe8cc27b4688b39d890fcd3cae92", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA Regional Rankings Map VT V2", "type": "VectorTileLayer", "id": "4f4d07fbd50e42da9aeaee820975180c", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}, {"name": "NHTSA State Rankings Map VT V2", "type": "VectorTileLayer", "id": "e839ee4991cd4794ba2ab254b14eb1f1", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"}]}]}, {"name": "Story Map - Fatal Accidents Analysis - Part 1: Introduction", "type": "Web Mapping Application", "id": "62ed2d94cac04311871ae0c0f48e34dc", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=62ed2d94cac04311871ae0c0f48e34dc", "children": [{"name": "NHTSA Basic Starting Map", "type": "Web Map", "id": "2a3ab1a04d254f9c84df16c8805270c9", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9", "children": [{"name": "World Transportation", "type": "ArcGISTiledMapServiceLayer", "id": "94f838a535334cf1aa061846514b77c7", "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"}, {"name": "NHTSA Fatal Highway Crash Events in 2016", "type": "ArcGISFeatureLayer", "id": "668d3b339cdf4292bfbc2f6f00a21653", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"}, {"name": "NHTSA National Interstates HPMS", "type": "ArcGISFeatureLayer", "id": "2ad0ca994c694cc590330a8822a8de5b", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"}]}]}, {"name": "HotSpot Route2_002_TEST", "type": "Web Mapping Application", "id": "de593004bd9041f9b02df1baef2778ff", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=de593004bd9041f9b02df1baef2778ff", "children": [{"name": "HotSpot Route2_002", "type": "Web Map", "id": "eda72f171a66463e94145c283ca2c612", "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=eda72f171a66463e94145c283ca2c612", "children": [{"name": "HotSpot_Route2_002", "type": "ArcGISTiledMapServiceLayer", "id": "a03060dcbbb54e8396597612f6a34e1e", "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_002/MapServer"}]}]}]}
+{
+    "name": "admin",
+    "children": [
+        {
+            "name": "Map Basic",
+            "type": "Web Mapping Application",
+            "id": "645ee717097f4c9e96cdbe3a309cc62c",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=645ee717097f4c9e96cdbe3a309cc62c",
+            "children": [
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        },
+                        {
+                            "name": "TIGER Road Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "f42d3688636f43eb955c1282c0fdba79",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                        },
+                        {
+                            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "cc56c2a7862349fc9168c57b7a870558",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Test Compare",
+            "type": "Web Mapping Application",
+            "id": "04635202860d46f09dc07f8d218fb0e0",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=04635202860d46f09dc07f8d218fb0e0",
+            "children": [
+                {
+                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                    "type": "Web Map",
+                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                    "children": [
+                        {
+                            "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                    "type": "Web Map",
+                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                    "children": [
+                        {
+                            "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "02eefe8bceab48d18197116e12f2e421",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Snapped Data",
+            "type": "Web Mapping Application",
+            "id": "27e49dc4f5944bcfba1f80301257f924",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=27e49dc4f5944bcfba1f80301257f924",
+            "children": [
+                {
+                    "name": "Snapped Data",
+                    "type": "Web Map",
+                    "id": "d7b5c6ebcf334e52be4888ceefb7eae4",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d7b5c6ebcf334e52be4888ceefb7eae4",
+                    "children": [
+                        {
+                            "name": "Snapped Crashes",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "20eb315452c146f4b6ff4d41d8496b02",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/NHS_SpatialJoin_CrashCount/MapServer"
+                        },
+                        {
+                            "name": "NHS (Time)",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "50886bd60ea04a87ab7c40fb12060882",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHS_SpatialJoin_CrashCount/FeatureServer/1"
+                        },
+                        {
+                            "name": "FARS (Time)",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "50886bd60ea04a87ab7c40fb12060882",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHS_SpatialJoin_CrashCount/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Where are similar fatal accidents?",
+            "type": "Web Mapping Application",
+            "id": "d96114c2f54d461e8452f4ffa3005b97",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d96114c2f54d461e8452f4ffa3005b97",
+            "children": []
+        },
+        {
+            "name": "Step 2: Measuring Spatial Clustering of Fatal Interstate Crashes and Crash Rates",
+            "type": "Web Mapping Application",
+            "id": "951a6ddcc4e9497bb87badc86d8068f6",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=951a6ddcc4e9497bb87badc86d8068f6",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": [
+                        {
+                            "name": "World_Transportation",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                        },
+                        {
+                            "name": "Navigation Basemap",
+                            "type": "VectorTileLayer",
+                            "id": "",
+                            "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "HPMS_Point_Segments_CrashRates_VT",
+                            "type": "VectorTileLayer",
+                            "id": "38edb1cee0ad471da461b97849b03291",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "Comparative Zones of Concern",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"
+                        },
+                        {
+                            "name": "FARS2016_DBSCAN_3mfc_5000ft",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "1a388fdce89048119bc2f95c2d5e25eb",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"
+                        },
+                        {
+                            "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "6b76b155c9904c42989564c1c465efb6",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"
+                        },
+                        {
+                            "name": "Interstates_FARS_2016_HotSpots",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "9e5312393b074532a7bbb2ee65a53f5f",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"
+                        },
+                        {
+                            "name": "OHS_StdDistance_2SD",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"
+                        },
+                        {
+                            "name": "World Light Gray Reference",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                    "type": "Web Map",
+                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                    "children": [
+                        {
+                            "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "NHTSA Compare Web App",
+                    "type": "Web Mapping Application",
+                    "id": "9eda40d3087d4c99b8d64cfbb841463b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9eda40d3087d4c99b8d64cfbb841463b",
+                    "children": [
+                        {
+                            "name": "Optimized Hot Spot Analysis of Crash Rates",
+                            "type": "Web Map",
+                            "id": "c3afadef58304030ab27fa4cc2bd330b",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                            "children": [
+                                {
+                                    "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                            "type": "Web Map",
+                            "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                            "children": [
+                                {
+                                    "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "02eefe8bceab48d18197116e12f2e421",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                    "type": "Web Map",
+                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                    "children": [
+                        {
+                            "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "02eefe8bceab48d18197116e12f2e421",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ddf",
+            "type": "Web Mapping Application",
+            "id": "8ac3e3ed2cd147d083edddcb2ca9e9a8",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=8ac3e3ed2cd147d083edddcb2ca9e9a8",
+            "children": []
+        },
+        {
+            "name": "NHTSA Compare Web App",
+            "type": "Web Mapping Application",
+            "id": "9eda40d3087d4c99b8d64cfbb841463b",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9eda40d3087d4c99b8d64cfbb841463b",
+            "children": [
+                {
+                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                    "type": "Web Map",
+                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                    "children": [
+                        {
+                            "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                    "type": "Web Map",
+                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                    "children": [
+                        {
+                            "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "02eefe8bceab48d18197116e12f2e421",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NHTSA: Analyzing Traffic Trends & Activity",
+            "type": "Site Application",
+            "id": "5925d09e77654f66bee683feb7cfa509",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5925d09e77654f66bee683feb7cfa509",
+            "children": [
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        },
+                        {
+                            "name": "TIGER Road Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "f42d3688636f43eb955c1282c0fdba79",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                        },
+                        {
+                            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "cc56c2a7862349fc9168c57b7a870558",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crash Count Hot Spot Comparison",
+            "type": "Web Mapping Application",
+            "id": "f83e641fa6eb43a6a28e6650065980e2",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f83e641fa6eb43a6a28e6650065980e2",
+            "children": [
+                {
+                    "name": "CrashCount_002mile_TILE",
+                    "type": "Web Map",
+                    "id": "311f4a8b0b344dffade8683067e7e318",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318",
+                    "children": [
+                        {
+                            "name": "CrashCount_HotSpot_02miles_Tile",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "347491078b4c4d65a514bf1b6bc0975a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "CrashCount_005mile_TILE",
+                    "type": "Web Map",
+                    "id": "f0079c637deb4ff6b1b18f35d4b57f11",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11",
+                    "children": [
+                        {
+                            "name": "CrashCount_HotSpot_05miles_Tile",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "07339f49790d4a508c0e66bb2be901e6",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "map swipe4",
+            "type": "Web Mapping Application",
+            "id": "5536fea013714be1b5f682956834f019",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5536fea013714be1b5f682956834f019",
+            "children": [
+                {
+                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                    "type": "Web Map",
+                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                    "children": [
+                        {
+                            "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "02eefe8bceab48d18197116e12f2e421",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "test34",
+            "type": "Web Mapping Application",
+            "id": "f9cc57f2b4e042aa9a27b3427ec6cdd9",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f9cc57f2b4e042aa9a27b3427ec6cdd9",
+            "children": [
+                {
+                    "name": "Topographic",
+                    "type": "Web Map",
+                    "id": "9d98f7113f9b469c8c302b210db7b922",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9d98f7113f9b469c8c302b210db7b922",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Map Swipe",
+            "type": "Web Mapping Application",
+            "id": "c3168f36ad7742bbaf84136fcc2b77bb",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3168f36ad7742bbaf84136fcc2b77bb",
+            "children": [
+                {
+                    "name": "Data Preparation Web Map",
+                    "type": "Web Map",
+                    "id": "b48fc9ec6c94426b99ec99965b0f3800",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800",
+                    "children": [
+                        {
+                            "name": "HPMS 2016 Filtered",
+                            "type": "VectorTileLayer",
+                            "id": "f59eeba9c85940c490146b83473b458c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_Filtered/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "Florida Interstate",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "24bdeb30548c416a8d7ac44928629214",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/Florida_Interstate/MapServer"
+                        },
+                        {
+                            "name": "FARS 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "1f110cee668b42d4b797952ef34e4598",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016/FeatureServer/0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        },
+                        {
+                            "name": "TIGER Road Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "f42d3688636f43eb955c1282c0fdba79",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                        },
+                        {
+                            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "cc56c2a7862349fc9168c57b7a870558",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Zones of Concern: Spatial Analysis of Fatal Interstate Crashes",
+            "type": "Web Mapping Application",
+            "id": "789feb2e72514838bf4ffc573b8bdc8e",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=789feb2e72514838bf4ffc573b8bdc8e",
+            "children": [
+                {
+                    "name": "Story Map - Fatal Accidents Analysis - Part 1: Introduction",
+                    "type": "Web Mapping Application",
+                    "id": "62ed2d94cac04311871ae0c0f48e34dc",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=62ed2d94cac04311871ae0c0f48e34dc",
+                    "children": [
+                        {
+                            "name": "NHTSA Basic Starting Map",
+                            "type": "Web Map",
+                            "id": "2a3ab1a04d254f9c84df16c8805270c9",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9",
+                            "children": [
+                                {
+                                    "name": "World Transportation",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "94f838a535334cf1aa061846514b77c7",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                                },
+                                {
+                                    "name": "NHTSA Fatal Highway Crash Events in 2016",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "668d3b339cdf4292bfbc2f6f00a21653",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"
+                                },
+                                {
+                                    "name": "NHTSA National Interstates HPMS",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "2ad0ca994c694cc590330a8822a8de5b",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Step 1: Ask a Question and Establish our Analysis",
+                    "type": "Web Mapping Application",
+                    "id": "9925af10e59a4c87852942c98ef9c55d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9925af10e59a4c87852942c98ef9c55d",
+                    "children": [
+                        {
+                            "name": "NHTSA Basic Starting Map",
+                            "type": "Web Map",
+                            "id": "2a3ab1a04d254f9c84df16c8805270c9",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9",
+                            "children": [
+                                {
+                                    "name": "World Transportation",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "94f838a535334cf1aa061846514b77c7",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                                },
+                                {
+                                    "name": "NHTSA Fatal Highway Crash Events in 2016",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "668d3b339cdf4292bfbc2f6f00a21653",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"
+                                },
+                                {
+                                    "name": "NHTSA National Interstates HPMS",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "2ad0ca994c694cc590330a8822a8de5b",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Clustering Analysis of Fatal Interstate Accidents",
+                            "type": "Web Map",
+                            "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                            "children": [
+                                {
+                                    "name": "World_Transportation",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                                },
+                                {
+                                    "name": "Navigation Basemap",
+                                    "type": "VectorTileLayer",
+                                    "id": "",
+                                    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "HPMS_Point_Segments_CrashRates_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "38edb1cee0ad471da461b97849b03291",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "Comparative Zones of Concern",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"
+                                },
+                                {
+                                    "name": "FARS2016_DBSCAN_3mfc_5000ft",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "1a388fdce89048119bc2f95c2d5e25eb",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"
+                                },
+                                {
+                                    "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "6b76b155c9904c42989564c1c465efb6",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"
+                                },
+                                {
+                                    "name": "Interstates_FARS_2016_HotSpots",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "9e5312393b074532a7bbb2ee65a53f5f",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"
+                                },
+                                {
+                                    "name": "OHS_StdDistance_2SD",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"
+                                },
+                                {
+                                    "name": "World Light Gray Reference",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Step 2: Measuring Spatial Clustering of Fatal Interstate Crashes and Crash Rates",
+                    "type": "Web Mapping Application",
+                    "id": "951a6ddcc4e9497bb87badc86d8068f6",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=951a6ddcc4e9497bb87badc86d8068f6",
+                    "children": [
+                        {
+                            "name": "Clustering Analysis of Fatal Interstate Accidents",
+                            "type": "Web Map",
+                            "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                            "children": [
+                                {
+                                    "name": "World_Transportation",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                                },
+                                {
+                                    "name": "Navigation Basemap",
+                                    "type": "VectorTileLayer",
+                                    "id": "",
+                                    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "HPMS_Point_Segments_CrashRates_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "38edb1cee0ad471da461b97849b03291",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "Comparative Zones of Concern",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"
+                                },
+                                {
+                                    "name": "FARS2016_DBSCAN_3mfc_5000ft",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "1a388fdce89048119bc2f95c2d5e25eb",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"
+                                },
+                                {
+                                    "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "6b76b155c9904c42989564c1c465efb6",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"
+                                },
+                                {
+                                    "name": "Interstates_FARS_2016_HotSpots",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "9e5312393b074532a7bbb2ee65a53f5f",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"
+                                },
+                                {
+                                    "name": "OHS_StdDistance_2SD",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"
+                                },
+                                {
+                                    "name": "World Light Gray Reference",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Optimized Hot Spot Analysis of Crash Rates",
+                            "type": "Web Map",
+                            "id": "c3afadef58304030ab27fa4cc2bd330b",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                            "children": [
+                                {
+                                    "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NHTSA Compare Web App",
+                            "type": "Web Mapping Application",
+                            "id": "9eda40d3087d4c99b8d64cfbb841463b",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9eda40d3087d4c99b8d64cfbb841463b",
+                            "children": [
+                                {
+                                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                                    "type": "Web Map",
+                                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                                    "children": [
+                                        {
+                                            "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                                            "type": "VectorTileLayer",
+                                            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                                    "type": "Web Map",
+                                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                                    "children": [
+                                        {
+                                            "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                                            "type": "VectorTileLayer",
+                                            "id": "02eefe8bceab48d18197116e12f2e421",
+                                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                            "type": "Web Map",
+                            "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                            "children": [
+                                {
+                                    "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "02eefe8bceab48d18197116e12f2e421",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Step 3: Exploring Ranked Zones of Concern",
+                    "type": "Web Mapping Application",
+                    "id": "d335b559d2f24ec29ad6a0c15244a6df",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d335b559d2f24ec29ad6a0c15244a6df",
+                    "children": [
+                        {
+                            "name": "NHTSA Zones of Interest Map (Regional)",
+                            "type": "Web Map",
+                            "id": "14fb9f3252304257a6a41292ba3c0660",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660",
+                            "children": [
+                                {
+                                    "name": "NHTSA National Rankings Map VT V2",
+                                    "type": "VectorTileLayer",
+                                    "id": "015cfe8cc27b4688b39d890fcd3cae92",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "NHTSA Regional Rankings Map VT V2",
+                                    "type": "VectorTileLayer",
+                                    "id": "4f4d07fbd50e42da9aeaee820975180c",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "NHTSA State Rankings Map VT V2",
+                                    "type": "VectorTileLayer",
+                                    "id": "e839ee4991cd4794ba2ab254b14eb1f1",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Clustering Analysis of Fatal Interstate Accidents",
+                            "type": "Web Map",
+                            "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                            "children": [
+                                {
+                                    "name": "World_Transportation",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                                },
+                                {
+                                    "name": "Navigation Basemap",
+                                    "type": "VectorTileLayer",
+                                    "id": "",
+                                    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "HPMS_Point_Segments_CrashRates_VT",
+                                    "type": "VectorTileLayer",
+                                    "id": "38edb1cee0ad471da461b97849b03291",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "Comparative Zones of Concern",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"
+                                },
+                                {
+                                    "name": "FARS2016_DBSCAN_3mfc_5000ft",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "1a388fdce89048119bc2f95c2d5e25eb",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"
+                                },
+                                {
+                                    "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "6b76b155c9904c42989564c1c465efb6",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"
+                                },
+                                {
+                                    "name": "Interstates_FARS_2016_HotSpots",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "9e5312393b074532a7bbb2ee65a53f5f",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"
+                                },
+                                {
+                                    "name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "e7b72995b5c245c98b6988641e122c8a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"
+                                },
+                                {
+                                    "name": "OHS_StdDistance_2SD",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"
+                                },
+                                {
+                                    "name": "World Light Gray Reference",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "",
+                                    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NHTSA Zones of Interest Map (State)",
+                            "type": "Web Map",
+                            "id": "6a8f2d9b946f492d8b7b9b63e80f15a3",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6a8f2d9b946f492d8b7b9b63e80f15a3",
+                            "children": [
+                                {
+                                    "name": "NHTSA National Rankings Map VT V2",
+                                    "type": "VectorTileLayer",
+                                    "id": "015cfe8cc27b4688b39d890fcd3cae92",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "NHTSA Regional Rankings Map VT V2",
+                                    "type": "VectorTileLayer",
+                                    "id": "4f4d07fbd50e42da9aeaee820975180c",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                                },
+                                {
+                                    "name": "NHTSA State Rankings Map VT V2",
+                                    "type": "VectorTileLayer",
+                                    "id": "e839ee4991cd4794ba2ab254b14eb1f1",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Conclusion - NHTSA Analysis Takeaways",
+                    "type": "Web Mapping Application",
+                    "id": "cf041e66e6964677a5a10744ec52c608",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=cf041e66e6964677a5a10744ec52c608",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "sdsdsd",
+            "type": "Web Mapping Application",
+            "id": "23edd22e047b44e7be262336825d1728",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=23edd22e047b44e7be262336825d1728",
+            "children": [
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        },
+                        {
+                            "name": "TIGER Road Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "f42d3688636f43eb955c1282c0fdba79",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                        },
+                        {
+                            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "cc56c2a7862349fc9168c57b7a870558",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Interstate Baseline Analysis Data Preparation",
+            "type": "Web Mapping Application",
+            "id": "5ae5dc1824d745d18e404796a0fdb295",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5ae5dc1824d745d18e404796a0fdb295",
+            "children": [
+                {
+                    "name": "Data Preparation Web Map",
+                    "type": "Web Map",
+                    "id": "b48fc9ec6c94426b99ec99965b0f3800",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800",
+                    "children": [
+                        {
+                            "name": "HPMS 2016 Filtered",
+                            "type": "VectorTileLayer",
+                            "id": "f59eeba9c85940c490146b83473b458c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_Filtered/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "Florida Interstate",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "24bdeb30548c416a8d7ac44928629214",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/Florida_Interstate/MapServer"
+                        },
+                        {
+                            "name": "FARS 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "1f110cee668b42d4b797952ef34e4598",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "test",
+            "type": "Web Mapping Application",
+            "id": "b9641595d1d946e580697df16d9decf1",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b9641595d1d946e580697df16d9decf1",
+            "children": [
+                {
+                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                    "type": "Web Map",
+                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                    "children": [
+                        {
+                            "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                    "type": "Web Map",
+                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                    "children": [
+                        {
+                            "name": "NHTSA_2_Density_based Clustering Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "02eefe8bceab48d18197116e12f2e421",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crash Rate Hot Spot Comparison",
+            "type": "Web Mapping Application",
+            "id": "31173a53bbda48f3876892f8f5b87e93",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=31173a53bbda48f3876892f8f5b87e93",
+            "children": [
+                {
+                    "name": "HotSpot AllRoutes_005",
+                    "type": "Web Map",
+                    "id": "c72d50ae9fb14539b9f264a8425d1f57",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57",
+                    "children": [
+                        {
+                            "name": "HotSpot_AllRoutes_005",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "ac8503faba474da2b53453d79ab6d891",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot AllRoutes_002",
+                    "type": "Web Map",
+                    "id": "26c1831824ed44e0bf0dd76e8ed4d0aa",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa",
+                    "children": [
+                        {
+                            "name": "HotSpot_AllRoutes_002",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "4f1876f043724541af6b1324e7167cc7",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Map Swipe2",
+            "type": "Web Mapping Application",
+            "id": "41ec8c23c9814bc9a0f51368f289c0d9",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=41ec8c23c9814bc9a0f51368f289c0d9",
+            "children": [
+                {
+                    "name": "Data Preparation Web Map",
+                    "type": "Web Map",
+                    "id": "b48fc9ec6c94426b99ec99965b0f3800",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800",
+                    "children": [
+                        {
+                            "name": "HPMS 2016 Filtered",
+                            "type": "VectorTileLayer",
+                            "id": "f59eeba9c85940c490146b83473b458c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_Filtered/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "Florida Interstate",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "24bdeb30548c416a8d7ac44928629214",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/Florida_Interstate/MapServer"
+                        },
+                        {
+                            "name": "FARS 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "1f110cee668b42d4b797952ef34e4598",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016/FeatureServer/0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        },
+                        {
+                            "name": "TIGER Road Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "f42d3688636f43eb955c1282c0fdba79",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                        },
+                        {
+                            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "cc56c2a7862349fc9168c57b7a870558",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crash Count vs Crash Rate Hot Spot Analysis",
+            "type": "Web Mapping Application",
+            "id": "47494412bbc5418eb041388acd48de91",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=47494412bbc5418eb041388acd48de91",
+            "children": [
+                {
+                    "name": "CrashCount_002mile_TILE",
+                    "type": "Web Map",
+                    "id": "311f4a8b0b344dffade8683067e7e318",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318",
+                    "children": [
+                        {
+                            "name": "CrashCount_HotSpot_02miles_Tile",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "347491078b4c4d65a514bf1b6bc0975a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "CrashCount_005mile_TILE",
+                    "type": "Web Map",
+                    "id": "f0079c637deb4ff6b1b18f35d4b57f11",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11",
+                    "children": [
+                        {
+                            "name": "CrashCount_HotSpot_05miles_Tile",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "07339f49790d4a508c0e66bb2be901e6",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crash Count Hot Spot Comparison",
+                    "type": "Web Mapping Application",
+                    "id": "f83e641fa6eb43a6a28e6650065980e2",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f83e641fa6eb43a6a28e6650065980e2",
+                    "children": [
+                        {
+                            "name": "CrashCount_002mile_TILE",
+                            "type": "Web Map",
+                            "id": "311f4a8b0b344dffade8683067e7e318",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318",
+                            "children": [
+                                {
+                                    "name": "CrashCount_HotSpot_02miles_Tile",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "347491078b4c4d65a514bf1b6bc0975a",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CrashCount_005mile_TILE",
+                            "type": "Web Map",
+                            "id": "f0079c637deb4ff6b1b18f35d4b57f11",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11",
+                            "children": [
+                                {
+                                    "name": "CrashCount_HotSpot_05miles_Tile",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "07339f49790d4a508c0e66bb2be901e6",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot AllRoutes_002",
+                    "type": "Web Map",
+                    "id": "26c1831824ed44e0bf0dd76e8ed4d0aa",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa",
+                    "children": [
+                        {
+                            "name": "HotSpot_AllRoutes_002",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "4f1876f043724541af6b1324e7167cc7",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot AllRoutes_005",
+                    "type": "Web Map",
+                    "id": "c72d50ae9fb14539b9f264a8425d1f57",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57",
+                    "children": [
+                        {
+                            "name": "HotSpot_AllRoutes_005",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "ac8503faba474da2b53453d79ab6d891",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crash Rate Hot Spot Comparison",
+                    "type": "Web Mapping Application",
+                    "id": "31173a53bbda48f3876892f8f5b87e93",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=31173a53bbda48f3876892f8f5b87e93",
+                    "children": [
+                        {
+                            "name": "HotSpot AllRoutes_005",
+                            "type": "Web Map",
+                            "id": "c72d50ae9fb14539b9f264a8425d1f57",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57",
+                            "children": [
+                                {
+                                    "name": "HotSpot_AllRoutes_005",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "ac8503faba474da2b53453d79ab6d891",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HotSpot AllRoutes_002",
+                            "type": "Web Map",
+                            "id": "26c1831824ed44e0bf0dd76e8ed4d0aa",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa",
+                            "children": [
+                                {
+                                    "name": "HotSpot_AllRoutes_002",
+                                    "type": "ArcGISTiledMapServiceLayer",
+                                    "id": "4f1876f043724541af6b1324e7167cc7",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Snapped vs Not-Snapped Comparison",
+                    "type": "Web Map",
+                    "id": "0b57b3800e5444ae8d3c33d45757b294",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0b57b3800e5444ae8d3c33d45757b294",
+                    "children": [
+                        {
+                            "name": "FARS_Snapped_005",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "d1555ba4fe18476b939de13018172f0f",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped_005/FeatureServer/0"
+                        },
+                        {
+                            "name": "HPMS_2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "fd0652a357974c99a4da595fbcb77711",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016/FeatureServer/0"
+                        },
+                        {
+                            "name": "FARS_NotSnapped_005",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "deb197941ec9461399b224967800cfb1",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_NotSnapped_005/FeatureServer/0"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot Route1_005",
+                    "type": "Web Map",
+                    "id": "5e5f2681eb444e3885181cd164dd231e",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5e5f2681eb444e3885181cd164dd231e",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route1_005",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "7c6810d047854689a2ba432207ba0541",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route1_005/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot Route1_002",
+                    "type": "Web Map",
+                    "id": "e2a00c548b454931b3f631e477a782c2",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e2a00c548b454931b3f631e477a782c2",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route1_002",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "d43d7cacc19641a2b11026a4696584a8",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route1_002/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot Route2_005",
+                    "type": "Web Map",
+                    "id": "6f50d70e19ad4a94b6c3dc0b79b6330d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6f50d70e19ad4a94b6c3dc0b79b6330d",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route2_005",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "66b4b87d82444c01af561796ba14ceb7",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_005/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot Route2_002",
+                    "type": "Web Map",
+                    "id": "eda72f171a66463e94145c283ca2c612",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=eda72f171a66463e94145c283ca2c612",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route2_002",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "a03060dcbbb54e8396597612f6a34e1e",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_002/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot Route3_005",
+                    "type": "Web Map",
+                    "id": "2ec6f15916bb480ab5c8864109933d64",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ec6f15916bb480ab5c8864109933d64",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route3_005",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "9be9c90849d44fa996b829e0affc5105",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route3_005/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "HotSpot Route3_002",
+                    "type": "Web Map",
+                    "id": "e8311b88706e4d7493999ae4c8515e63",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e8311b88706e4d7493999ae4c8515e63",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route3_002",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "b08b4ae64a3d484a90d5ea1446da169a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route3_002/MapServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PROTOTYPE: Snapped FARS 2007-2016 Web App",
+            "type": "Web Mapping Application",
+            "id": "5475a093796946999f4658fe4982b81d",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5475a093796946999f4658fe4982b81d",
+            "children": [
+                {
+                    "name": "Snapped Web Map",
+                    "type": "Web Map",
+                    "id": "54fcbfe126a240d3a82354d01f90eb0e",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=54fcbfe126a240d3a82354d01f90eb0e",
+                    "children": [
+                        {
+                            "name": "NHS",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "d833d740d26c411ca210ca8aaad4b5a3",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/NHS_Snapped_Generalization/MapServer"
+                        },
+                        {
+                            "name": "FARS",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "0705c45ef03f4cdaafcdaa179a7a71b0",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Crash Fatality Analysis",
+            "type": "Web Mapping Application",
+            "id": "f324cb7be442484cbeed7eddea1f2061",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f324cb7be442484cbeed7eddea1f2061",
+            "children": [
+                {
+                    "name": "Crash Fatality Analysis - Hexbins Web Map",
+                    "type": "Web Map",
+                    "id": "cbb029f85de944fbbbeba29a660803ad",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=cbb029f85de944fbbbeba29a660803ad",
+                    "children": [
+                        {
+                            "name": "Accident Trends (100 Miles radius over 4 months)",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "56b34a40a42541f9aaaa24a69a705ad8",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Accident_Trends__100_Miles_radius_over_4_months/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Map Journal",
+            "type": "Web Mapping Application",
+            "id": "c150f297a6184fef9c271f03712014e4",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c150f297a6184fef9c271f03712014e4",
+            "children": [
+                {
+                    "name": "NHTSA Zones of Interest Map (Regional)",
+                    "type": "Web Map",
+                    "id": "14fb9f3252304257a6a41292ba3c0660",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660",
+                    "children": [
+                        {
+                            "name": "NHTSA National Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "015cfe8cc27b4688b39d890fcd3cae92",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "NHTSA Regional Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "4f4d07fbd50e42da9aeaee820975180c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "NHTSA State Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "e839ee4991cd4794ba2ab254b14eb1f1",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                    "type": "Web Map",
+                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                    "children": [
+                        {
+                            "name": "NHTSA_1_Optimized Hot Spots Sequence_VT",
+                            "type": "VectorTileLayer",
+                            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Map Basic",
+                    "type": "Web Mapping Application",
+                    "id": "645ee717097f4c9e96cdbe3a309cc62c",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=645ee717097f4c9e96cdbe3a309cc62c",
+                    "children": [
+                        {
+                            "name": "Accidnet Processing",
+                            "type": "Web Map",
+                            "id": "98621991bcf74783a92d30c8f9c258d9",
+                            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                            "children": [
+                                {
+                                    "name": "FARS Accidents 2002 - 2016",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "81087e7fcfe94677831007f5c2d1c062",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                                },
+                                {
+                                    "name": "TIGER Road Data",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "f42d3688636f43eb955c1282c0fdba79",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                                },
+                                {
+                                    "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                                    "type": "ArcGISFeatureLayer",
+                                    "id": "cc56c2a7862349fc9168c57b7a870558",
+                                    "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3: Exploring Ranked Zones of Concern",
+            "type": "Web Mapping Application",
+            "id": "d335b559d2f24ec29ad6a0c15244a6df",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d335b559d2f24ec29ad6a0c15244a6df",
+            "children": [
+                {
+                    "name": "NHTSA Zones of Interest Map (Regional)",
+                    "type": "Web Map",
+                    "id": "14fb9f3252304257a6a41292ba3c0660",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660",
+                    "children": [
+                        {
+                            "name": "NHTSA National Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "015cfe8cc27b4688b39d890fcd3cae92",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "NHTSA Regional Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "4f4d07fbd50e42da9aeaee820975180c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "NHTSA State Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "e839ee4991cd4794ba2ab254b14eb1f1",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": [
+                        {
+                            "name": "World_Transportation",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                        },
+                        {
+                            "name": "Navigation Basemap",
+                            "type": "VectorTileLayer",
+                            "id": "",
+                            "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "HPMS_Point_Segments_CrashRates_VT",
+                            "type": "VectorTileLayer",
+                            "id": "38edb1cee0ad471da461b97849b03291",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "Comparative Zones of Concern",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"
+                        },
+                        {
+                            "name": "FARS2016_DBSCAN_3mfc_5000ft",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "1a388fdce89048119bc2f95c2d5e25eb",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"
+                        },
+                        {
+                            "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "6b76b155c9904c42989564c1c465efb6",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"
+                        },
+                        {
+                            "name": "Interstates_FARS_2016_HotSpots",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "9e5312393b074532a7bbb2ee65a53f5f",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"
+                        },
+                        {
+                            "name": "OHS_StdDistance_2SD",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"
+                        },
+                        {
+                            "name": "World Light Gray Reference",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "NHTSA Zones of Interest Map (State)",
+                    "type": "Web Map",
+                    "id": "6a8f2d9b946f492d8b7b9b63e80f15a3",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6a8f2d9b946f492d8b7b9b63e80f15a3",
+                    "children": [
+                        {
+                            "name": "NHTSA National Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "015cfe8cc27b4688b39d890fcd3cae92",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "NHTSA Regional Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "4f4d07fbd50e42da9aeaee820975180c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "NHTSA State Rankings Map VT V2",
+                            "type": "VectorTileLayer",
+                            "id": "e839ee4991cd4794ba2ab254b14eb1f1",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer/resources/styles/root.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HotSpot Route2_002_TEST",
+            "type": "Web Mapping Application",
+            "id": "de593004bd9041f9b02df1baef2778ff",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=de593004bd9041f9b02df1baef2778ff",
+            "children": [
+                {
+                    "name": "HotSpot Route2_002",
+                    "type": "Web Map",
+                    "id": "eda72f171a66463e94145c283ca2c612",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=eda72f171a66463e94145c283ca2c612",
+                    "children": [
+                        {
+                            "name": "HotSpot_Route2_002",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "a03060dcbbb54e8396597612f6a34e1e",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_002/MapServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Story Map - Fatal Accidents Analysis - Part 1: Introduction",
+            "type": "Web Mapping Application",
+            "id": "62ed2d94cac04311871ae0c0f48e34dc",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=62ed2d94cac04311871ae0c0f48e34dc",
+            "children": [
+                {
+                    "name": "NHTSA Basic Starting Map",
+                    "type": "Web Map",
+                    "id": "2a3ab1a04d254f9c84df16c8805270c9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9",
+                    "children": [
+                        {
+                            "name": "World Transportation",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "94f838a535334cf1aa061846514b77c7",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                        },
+                        {
+                            "name": "NHTSA Fatal Highway Crash Events in 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "668d3b339cdf4292bfbc2f6f00a21653",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"
+                        },
+                        {
+                            "name": "NHTSA National Interstates HPMS",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "2ad0ca994c694cc590330a8822a8de5b",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Accidnet Processing",
+            "type": "Web Mapping Application",
+            "id": "64dcc6aeab0c452e911e7b3e939d7493",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=64dcc6aeab0c452e911e7b3e939d7493",
+            "children": [
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        },
+                        {
+                            "name": "TIGER Road Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "f42d3688636f43eb955c1282c0fdba79",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Highways/FeatureServer/0"
+                        },
+                        {
+                            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "cc56c2a7862349fc9168c57b7a870558",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Map Tour2",
+            "type": "Web Mapping Application",
+            "id": "299cb6c0bf8f4742bd79fe880eef6193",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=299cb6c0bf8f4742bd79fe880eef6193",
+            "children": [
+                {
+                    "name": "Map Tour2",
+                    "type": "Web Map",
+                    "id": "e17cac50c8e24c0e8dda99615823839c",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e17cac50c8e24c0e8dda99615823839c",
+                    "children": [
+                        {
+                            "name": "Map Tour layer",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "885bfaa3ebcb419b8a070696a33542c5",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/test_map_tour/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "State Hot Spot Web App",
+            "type": "Web Mapping Application",
+            "id": "a5c221b50e864e7b978e7374b33f65ce",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=a5c221b50e864e7b978e7374b33f65ce",
+            "children": [
+                {
+                    "name": "State Hot Spot Web Map",
+                    "type": "Web Map",
+                    "id": "995f995c0c374aa2a8f9180a88ba1067",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=995f995c0c374aa2a8f9180a88ba1067",
+                    "children": [
+                        {
+                            "name": "States",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "7fa43f5793bc4831a1261dacc5da2931",
+                            "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_States_Generalized_analysis_trim/FeatureServer/0"
+                        },
+                        {
+                            "name": "NHS: 2008-2016 Hot Spots",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "70e24d9f906543148915dd4ae9342f08",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2008_2016_FARS_Snapped_02_Miles/FeatureServer/0"
+                        },
+                        {
+                            "name": "FARS: 2008-2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "6edf04518ca14bd4a90837a23d45bac3",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2008_2016_Filtered_02_Miles_FL/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 1: Ask a Question and Establish our Analysis",
+            "type": "Web Mapping Application",
+            "id": "9925af10e59a4c87852942c98ef9c55d",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9925af10e59a4c87852942c98ef9c55d",
+            "children": [
+                {
+                    "name": "NHTSA Basic Starting Map",
+                    "type": "Web Map",
+                    "id": "2a3ab1a04d254f9c84df16c8805270c9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9",
+                    "children": [
+                        {
+                            "name": "World Transportation",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "94f838a535334cf1aa061846514b77c7",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                        },
+                        {
+                            "name": "NHTSA Fatal Highway Crash Events in 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "668d3b339cdf4292bfbc2f6f00a21653",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer/4"
+                        },
+                        {
+                            "name": "NHTSA National Interstates HPMS",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "2ad0ca994c694cc590330a8822a8de5b",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer/8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": [
+                        {
+                            "name": "World_Transportation",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer"
+                        },
+                        {
+                            "name": "Navigation Basemap",
+                            "type": "VectorTileLayer",
+                            "id": "",
+                            "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "HPMS_Point_Segments_CrashRates_VT",
+                            "type": "VectorTileLayer",
+                            "id": "38edb1cee0ad471da461b97849b03291",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer/resources/styles/root.json"
+                        },
+                        {
+                            "name": "Comparative Zones of Concern",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer/0"
+                        },
+                        {
+                            "name": "FARS2016_DBSCAN_3mfc_5000ft",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "1a388fdce89048119bc2f95c2d5e25eb",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer/75"
+                        },
+                        {
+                            "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "6b76b155c9904c42989564c1c465efb6",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer/72"
+                        },
+                        {
+                            "name": "Interstates_FARS_2016_HotSpots",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "9e5312393b074532a7bbb2ee65a53f5f",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer/20"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - HPMS_Point_Segments_National",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/2"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - National Interstates HPMS",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/3"
+                        },
+                        {
+                            "name": "Group Layer_FARS 2016 and HPMS Road Segments - Fatal Highway Crash Events in 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "e7b72995b5c245c98b6988641e122c8a",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer/0"
+                        },
+                        {
+                            "name": "OHS_StdDistance_2SD",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer/16"
+                        },
+                        {
+                            "name": "World Light Gray Reference",
+                            "type": "ArcGISTiledMapServiceLayer",
+                            "id": "",
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Conclusion - NHTSA Analysis Takeaways",
+            "type": "Web Mapping Application",
+            "id": "cf041e66e6964677a5a10744ec52c608",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=cf041e66e6964677a5a10744ec52c608",
+            "children": []
+        },
+        {
+            "name": "I-95: Accident Analysis (2008-2016)",
+            "type": "Web Mapping Application",
+            "id": "585b134b350d450e955a692c914a78b5",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=585b134b350d450e955a692c914a78b5",
+            "children": [
+                {
+                    "name": "HPMS & FARS: I-95 Web Map",
+                    "type": "Web Map",
+                    "id": "0dca82d9e70d4c10a957d977cbeb8935",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0dca82d9e70d4c10a957d977cbeb8935",
+                    "children": [
+                        {
+                            "name": "FARS 2008-2016: Hot Spot Analysis",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "49fc7170db434759a04242e4f2aa96ab",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_FARS_2008_2016_HotSpot_CC/MapServer"
+                        },
+                        {
+                            "name": "FARS 2007-2016: I-95 States",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "6ba9a62053f74a9aae38f6b50d28c190",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2007_2016_i95_States/MapServer"
+                        },
+                        {
+                            "name": "FARS 2007-2016: I-95 States Along Interstate",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "e41a03df19c9406f8539beb964df161c",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2007_2016_i95_States_Interstate_AlbersProj/MapServer"
+                        },
+                        {
+                            "name": "HPMS 2016: I-95",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "0b937a37ae254b5983b8767ce1d43bf5",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2016_i95/MapServer"
+                        },
+                        {
+                            "name": "HPMS 2016: I-95 Buffered & Segmented",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2016_i95_Buffer_withFARS/MapServer/0"
+                        },
+                        {
+                            "name": "FARS 2007-2016: I-95 States Along Interstate",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2007_2016_i95_States_Interstate_AlbersProj/MapServer/0"
+                        },
+                        {
+                            "name": "FARS 2008-2016: I-95 Filtered",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2008_2016_i95_Filtered/MapServer/0"
+                        },
+                        {
+                            "name": "FARS 2008-2016: I-95 Filtered Outside",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "19302531c248492a83b427d831653b76",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2008_2016_i95_Filtered_Outside/FeatureServer/0"
+                        }
+                    ]
+                },
+                {
+                    "name": "HPMS & FARS: I-95 Web Map Hot Spot",
+                    "type": "Web Map",
+                    "id": "e52631c34df5433cb4119aeb38db1a3f",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e52631c34df5433cb4119aeb38db1a3f",
+                    "children": [
+                        {
+                            "name": "FARS 2008-2016: Hot Spot Analysis",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "49fc7170db434759a04242e4f2aa96ab",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_FARS_2008_2016_HotSpot_CC/MapServer"
+                        },
+                        {
+                            "name": "FARS 2008-2016: I-95 Filtered",
+                            "type": "ArcGISMapServiceLayer",
+                            "id": "ea6f6d4a11f14bb099ae11cf742f48ed",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2008_2016_i95_Filtered/MapServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sites App Launcher",
+            "type": "Web Mapping Application",
+            "id": "6494a040bbfc4c409e625efc07fa95af",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6494a040bbfc4c409e625efc07fa95af",
+            "children": []
+        },
+        {
+            "name": "Zones of Concern Comparisons",
+            "type": "Web Mapping Application",
+            "id": "2e7cfd93ec0a40a5adc4a81784508ec4",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2e7cfd93ec0a40a5adc4a81784508ec4",
+            "children": []
+        },
+        {
+            "name": "NHTSA - FARS Crash Viewer",
+            "type": "Web Mapping Application",
+            "id": "fd483bc1168a402b853454e9c9a3a1c2",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=fd483bc1168a402b853454e9c9a3a1c2",
+            "children": [
+                {
+                    "name": "Topographic",
+                    "type": "Web Map",
+                    "id": "9d98f7113f9b469c8c302b210db7b922",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=9d98f7113f9b469c8c302b210db7b922",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "test2",
+            "type": "Web Mapping Application",
+            "id": "5b1f1a67c36149b681629dd58f0034ba",
+            "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5b1f1a67c36149b681629dd58f0034ba",
+            "children": [
+                {
+                    "name": "test2",
+                    "type": "Web Map",
+                    "id": "fb147b732bfc4294aff28d94876e5b96",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=fb147b732bfc4294aff28d94876e5b96",
+                    "children": [
+                        {
+                            "name": "FARS Accidents 2002 - 2016",
+                            "type": "ArcGISFeatureLayer",
+                            "id": "81087e7fcfe94677831007f5c2d1c062",
+                            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_Merge/FeatureServer/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
