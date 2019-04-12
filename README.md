@@ -1,6 +1,6 @@
 # Item-Dependencies-Tree
 
-This project is a proof of concept using python and javascript to visualize item dependencies for Web Mapping Application in ArcGIS Online or Portal.
+This project is a proof of concept using python and javascript to visualize item dependencies for Web Mapping Applications in ArcGIS Online or Portal.
 
 ## Python
 
