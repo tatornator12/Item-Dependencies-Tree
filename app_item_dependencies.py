@@ -11,6 +11,7 @@ this_dir = r'C:\path\to\directory'
 # Get Start Time - UTC Seconds
 start_time = time.time()
 
+
 # Extract Operational Layers from a Web Map
 def mapSearch(map_itemId, item_list):
     # Get Web Map item
@@ -89,11 +90,18 @@ def webappSearch(item, item_list):
     all_values = get_values_recurs(item.get_data())
 
     # Search through values for Webmaps and Webpages
-    for value in all_values:
+    for value in set(all_values):
         if str(value).isalnum() == True and len(str(value)) == 32:
             mapSearch(value, item_list)
         elif str(value).startswith("http"):
             webpageSearch(value, item_list)
+
+
+# Search for all applications for user
+def get_apps_to_check():
+
+    for app in gis.content.search(query='owner:username', item_type='application', max_items=10000):
+        yield app
 
 
 if __name__ == "__main__":
@@ -105,18 +113,15 @@ if __name__ == "__main__":
     print('Executing process.........')
 
     # Connect to Portal
-    print("Connecting to Portal....")
-    gis = GIS('https://my.portal.com/portal', username, password, verify_cert=False)
-
-    # Search through user's content
-    print("Searching through user's applications....")
-    search_result = gis.content.search(query='owner:admin', item_type='application', max_items=10000)
+    print("Connecting to Portal to begin search for applications....")
+    gis = GIS('https://my.portal.com/portal', username, passowrd, verify_cert=False)
 
     # Create the master dictionary
-    item_dict = {'name': 'admin', 'children': []}
+    item_dict = {'name': username, 'children': []}
 
     # Search through Web App items
-    for app_item in search_result:
+    for app_item in get_apps_to_check():
+
         # Create entry for Web App item
         item_details = {'name': app_item.title, 'type': app_item.type, 'id': app_item.id, 'url': app_item.homepage,
                         'children': []}
