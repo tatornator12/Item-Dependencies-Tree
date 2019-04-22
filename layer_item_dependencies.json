@@ -1,0 +1,987 @@
+{
+    "name": "admin",
+    "children": [
+        {
+            "name": "FARS_Snapped_002",
+            "type": "Feature Service",
+            "id": "4633b92f7c054b71a9bf72895f9460d5",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped_002/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "NHS_CrashCounts_Snapped",
+            "type": "Layer",
+            "id": "08b17762ce3f4f4f83cbdd7858d1f247",
+            "url": null,
+            "children": []
+        },
+        {
+            "name": "FARS Crashes (Filtered & Snapped 0.05 Miles)",
+            "type": "Feature Service",
+            "id": "e0503666f5054ede9d0ad2aea852d57c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARSaux_Accidents_allfilter_005/FeatureServer",
+            "children": [
+                {
+                    "name": "NHTSA - FARS Crash Viewer Web Map (NEW)",
+                    "type": "Web Map",
+                    "id": "e5ea6339e5f24fd09460509bb239c42d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e5ea6339e5f24fd09460509bb239c42d",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NotSnapped_002",
+            "type": "Map Service",
+            "id": "3a8cc40ba5124016a53497f505f15046",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NotSnapped_002/MapServer",
+            "children": []
+        },
+        {
+            "name": "HPMS - 0.05 Miles Dissolved by Route",
+            "type": "Feature Service",
+            "id": "a3fb0bfd7ea447f294e2392dec509325",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_005_Dis_Merge/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "NHS_Snapped_Generalization",
+            "type": "Map Service",
+            "id": "d833d740d26c411ca210ca8aaad4b5a3",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/NHS_Snapped_Generalization/MapServer",
+            "children": [
+                {
+                    "name": "Snapped Web Map",
+                    "type": "Web Map",
+                    "id": "54fcbfe126a240d3a82354d01f90eb0e",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=54fcbfe126a240d3a82354d01f90eb0e",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_AllRoutes_005",
+            "type": "Map Service",
+            "id": "ac8503faba474da2b53453d79ab6d891",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_005/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot AllRoutes_005",
+                    "type": "Web Map",
+                    "id": "c72d50ae9fb14539b9f264a8425d1f57",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c72d50ae9fb14539b9f264a8425d1f57",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS 2008-2016: Hot Spot Analysis",
+            "type": "Map Service",
+            "id": "49fc7170db434759a04242e4f2aa96ab",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_FARS_2008_2016_HotSpot_CC/MapServer",
+            "children": [
+                {
+                    "name": "HPMS & FARS: I-95 Web Map Hot Spot",
+                    "type": "Web Map",
+                    "id": "e52631c34df5433cb4119aeb38db1a3f",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e52631c34df5433cb4119aeb38db1a3f",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS 2008-2016: I-95 Filtered",
+            "type": "Map Service",
+            "id": "ea6f6d4a11f14bb099ae11cf742f48ed",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2008_2016_i95_Filtered/MapServer",
+            "children": [
+                {
+                    "name": "HPMS & FARS: I-95 Web Map Hot Spot",
+                    "type": "Web Map",
+                    "id": "e52631c34df5433cb4119aeb38db1a3f",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e52631c34df5433cb4119aeb38db1a3f",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Accident Trends (100 Miles radius over 4 months)",
+            "type": "Feature Service",
+            "id": "56b34a40a42541f9aaaa24a69a705ad8",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Accident_Trends__100_Miles_radius_over_4_months/FeatureServer",
+            "children": [
+                {
+                    "name": "Crash Fatality Analysis - Hexbins Web Map",
+                    "type": "Web Map",
+                    "id": "cbb029f85de944fbbbeba29a660803ad",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=cbb029f85de944fbbbeba29a660803ad",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_Route2_005",
+            "type": "Map Service",
+            "id": "66b4b87d82444c01af561796ba14ceb7",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_005/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot Route2_005",
+                    "type": "Web Map",
+                    "id": "6f50d70e19ad4a94b6c3dc0b79b6330d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=6f50d70e19ad4a94b6c3dc0b79b6330d",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS_NotSnapped_005",
+            "type": "Feature Service",
+            "id": "deb197941ec9461399b224967800cfb1",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_NotSnapped_005/FeatureServer",
+            "children": [
+                {
+                    "name": "Snapped vs Not-Snapped Comparison",
+                    "type": "Web Map",
+                    "id": "0b57b3800e5444ae8d3c33d45757b294",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0b57b3800e5444ae8d3c33d45757b294",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NHTSA_1_Optimized_Hot_Spots_Sequence_VT",
+            "type": "Vector Tile Service",
+            "id": "a2fe387654144f72b56fbdd2b0af3b1c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_1_Optimized_Hot_Spots_Sequence_VT/VectorTileServer",
+            "children": [
+                {
+                    "name": "Optimized Hot Spot Analysis of Crash Rates",
+                    "type": "Web Map",
+                    "id": "c3afadef58304030ab27fa4cc2bd330b",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=c3afadef58304030ab27fa4cc2bd330b",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "OHSStdDistance_2SD",
+            "type": "Feature Service",
+            "id": "ecf40f0c6c384a3daea220fb7085e3c3",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/OHSStdDistance_2SD/FeatureServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Interstates_FARS_2016_HotSpots",
+            "type": "Feature Service",
+            "id": "9e5312393b074532a7bbb2ee65a53f5f",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Interstates_FARS_2016_HotSpots/FeatureServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NHTSA National Interstates HPMS",
+            "type": "Feature Service",
+            "id": "2ad0ca994c694cc590330a8822a8de5b",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/National_Interstates_HPMS/FeatureServer",
+            "children": [
+                {
+                    "name": "NHTSA Basic Starting Map",
+                    "type": "Web Map",
+                    "id": "2a3ab1a04d254f9c84df16c8805270c9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS - I-95",
+            "type": "Feature Service",
+            "id": "aaf822aa0e1d41bbb1481f9b04f4b476",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_i95_Albers/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "FARS - 2008-2016 Filtered & Unsnapped",
+            "type": "Feature Service",
+            "id": "d3a619a3630f4c10a9f2955ef0bdf45b",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2008_2016_Filtered_Unsnapped/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "FARS_NotSnapped_002",
+            "type": "Feature Service",
+            "id": "a69215cafc70476a8b451271055305d0",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_NotSnapped_002/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "FARS_Snapped",
+            "type": "Map Service",
+            "id": "2546a5f1624e4f6987c1f47ee6a162df",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Snapped_Data/FARS_Snapped/MapServer",
+            "children": []
+        },
+        {
+            "name": "FARS - 2008-2016 Filtered & Snapped .02 Miles",
+            "type": "Feature Service",
+            "id": "6edf04518ca14bd4a90837a23d45bac3",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2008_2016_Filtered_02_Miles_FL/FeatureServer",
+            "children": [
+                {
+                    "name": "State Hot Spot Web Map",
+                    "type": "Web Map",
+                    "id": "995f995c0c374aa2a8f9180a88ba1067",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=995f995c0c374aa2a8f9180a88ba1067",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS 2016 Filtered",
+            "type": "Vector Tile Service",
+            "id": "f59eeba9c85940c490146b83473b458c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_Filtered/VectorTileServer",
+            "children": [
+                {
+                    "name": "Data Preparation Web Map",
+                    "type": "Web Map",
+                    "id": "b48fc9ec6c94426b99ec99965b0f3800",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS 2016",
+            "type": "Map Service",
+            "id": "f4efd16872224a8e9fd23692743b3fe8",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/HPMS_2016/MapServer",
+            "children": []
+        },
+        {
+            "name": "Hot Spot - Crash Count 0.05 Miles (Detailed)",
+            "type": "Map Service",
+            "id": "c20cc8d33ab94d88b93fc9a59a6e31af",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2016_2_005_SpatialJoinv2/MapServer",
+            "children": [
+                {
+                    "name": "NHTSA - FARS Crash Viewer Web Map (NEW)",
+                    "type": "Web Map",
+                    "id": "e5ea6339e5f24fd09460509bb239c42d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e5ea6339e5f24fd09460509bb239c42d",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS 2017 Interstate Crash Totals",
+            "type": "Feature Service",
+            "id": "954b5770966441ea836f4d9cfe734b41",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2017_Interstates/FeatureServer",
+            "children": [
+                {
+                    "name": "Interstate Crash Totals 2017",
+                    "type": "Web Map",
+                    "id": "2b7f537ecc8d46e9bc0efb8dd60253f3",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2b7f537ecc8d46e9bc0efb8dd60253f3",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS_Point_Segments_CrashRates_VT",
+            "type": "Vector Tile Service",
+            "id": "38edb1cee0ad471da461b97849b03291",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_Point_Segments_CrashRates_VT/VectorTileServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS_2017",
+            "type": "Feature Service",
+            "id": "e8b24c113de84c2bb188e453f128d24c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2017/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "NHS_HotSpots",
+            "type": "Vector Tile Service",
+            "id": "aa86ca6b47754dfd897451634659bcb1",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHS_HotSpots/VectorTileServer",
+            "children": []
+        },
+        {
+            "name": "NHS_Snapped",
+            "type": "Map Service",
+            "id": "2c3b30459a254b798f367a9986f39756",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Snapped_Data/NHS_Snapped/MapServer",
+            "children": []
+        },
+        {
+            "name": "HotSpot_002",
+            "type": "Feature Service",
+            "id": "6b4670d2a3b74dfb97d9130ed86911a9",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_002/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "SampleWorldCities",
+            "type": "Map Service",
+            "id": "c14bb5f5e2074e6baafefcce80c69b4c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/SampleWorldCities/MapServer",
+            "children": []
+        },
+        {
+            "name": "FARS - 2008-2016 Filtered & Snapped .02 Miles",
+            "type": "Map Service",
+            "id": "16ffd169798541e8a0f4bd25c3fe884f",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2008_2016_Filtered_02_Miles/MapServer",
+            "children": []
+        },
+        {
+            "name": "FARS - 2016 Filtered & Snapped 0.02 Miles",
+            "type": "Feature Service",
+            "id": "7a8be590d77b4c22a9aa2e1c8b143a2a",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016_Filtered_Snapped_02_Miles/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "HPMS - 2008-2016 FARS Snapped .02 Miles",
+            "type": "Feature Service",
+            "id": "70e24d9f906543148915dd4ae9342f08",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2008_2016_FARS_Snapped_02_Miles/FeatureServer",
+            "children": [
+                {
+                    "name": "State Hot Spot Web Map",
+                    "type": "Web Map",
+                    "id": "995f995c0c374aa2a8f9180a88ba1067",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=995f995c0c374aa2a8f9180a88ba1067",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_AllRoutes_002",
+            "type": "Map Service",
+            "id": "4f1876f043724541af6b1324e7167cc7",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_AllRoutes_002/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot AllRoutes_002",
+                    "type": "Web Map",
+                    "id": "26c1831824ed44e0bf0dd76e8ed4d0aa",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=26c1831824ed44e0bf0dd76e8ed4d0aa",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS_Snapped_005",
+            "type": "Feature Service",
+            "id": "d1555ba4fe18476b939de13018172f0f",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped_005/FeatureServer",
+            "children": [
+                {
+                    "name": "Snapped vs Not-Snapped Comparison",
+                    "type": "Web Map",
+                    "id": "0b57b3800e5444ae8d3c33d45757b294",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0b57b3800e5444ae8d3c33d45757b294",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS Accidents 2002-2016 with Auxiliary",
+            "type": "Feature Service",
+            "id": "6c4f82ccdaf041e8b9983cc2523d8a8f",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Accidents_2002_2016_Aux/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "NHTSA State Rankings Map VT V2",
+            "type": "Vector Tile Service",
+            "id": "e839ee4991cd4794ba2ab254b14eb1f1",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_State_Rankings_Map_VT_V2/VectorTileServer",
+            "children": [
+                {
+                    "name": "NHTSA Zones of Interest Map (Regional)",
+                    "type": "Web Map",
+                    "id": "14fb9f3252304257a6a41292ba3c0660",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NHTSA Regional Rankings Map VT V2",
+            "type": "Vector Tile Service",
+            "id": "4f4d07fbd50e42da9aeaee820975180c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_Regional_Rankings_Map_VT_V2/VectorTileServer",
+            "children": [
+                {
+                    "name": "NHTSA Zones of Interest Map (Regional)",
+                    "type": "Web Map",
+                    "id": "14fb9f3252304257a6a41292ba3c0660",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NHTSA National Rankings Map VT V2",
+            "type": "Vector Tile Service",
+            "id": "015cfe8cc27b4688b39d890fcd3cae92",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_National_Rankings_Map_VT_V2/VectorTileServer",
+            "children": [
+                {
+                    "name": "NHTSA Zones of Interest Map (Regional)",
+                    "type": "Web Map",
+                    "id": "14fb9f3252304257a6a41292ba3c0660",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=14fb9f3252304257a6a41292ba3c0660",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NHTSA_2_Density_based_Clustering_Sequence_VT",
+            "type": "Vector Tile Service",
+            "id": "02eefe8bceab48d18197116e12f2e421",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NHTSA_2_Density_based_Clustering_Sequence_VT/VectorTileServer",
+            "children": [
+                {
+                    "name": "Density-based Clustering and Standard Distance of Fatal Interstate Crashes",
+                    "type": "Web Map",
+                    "id": "0e8ef91676e64b868e7940e4b560eaa9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0e8ef91676e64b868e7940e4b560eaa9",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Comparative Zones of Concern",
+            "type": "Feature Service",
+            "id": "8a73d3480bea47eaae5e2cd71e7bebc5",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Comparative_Zones_of_Concern_Basic/FeatureServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Florida Interstate",
+            "type": "Map Service",
+            "id": "24bdeb30548c416a8d7ac44928629214",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Baseline_Analysis/Florida_Interstate/MapServer",
+            "children": [
+                {
+                    "name": "Data Preparation Web Map",
+                    "type": "Web Map",
+                    "id": "b48fc9ec6c94426b99ec99965b0f3800",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "DEMO:Accidents 2012 2016 Hexagons",
+            "type": "Feature Service",
+            "id": "f4a07de781374a109d614c619666ece8",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Accidents_2012_2016_Hotspots/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "DEMO: Accident_Count_Hotspots",
+            "type": "Feature Service",
+            "id": "eaed6dc74ea3444a82823d90f888c5df",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Accident_Count_Hotspots/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "HotSpot_005miles",
+            "type": "Map Service",
+            "id": "b8043aaf2a964a9d874d4cf887831e79",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_005miles/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot_TestHPMS",
+                    "type": "Web Map",
+                    "id": "ccbdc58aab1d4e5fa35ab66fb1f99aec",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=ccbdc58aab1d4e5fa35ab66fb1f99aec",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_005",
+            "type": "Feature Service",
+            "id": "3220c01819da458ab56f21cc0adb25cd",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_005/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "CrashCount_HotSpot_02miles",
+            "type": "Feature Service",
+            "id": "a2893c8401a64d6da78c7f06580d0d34",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "TEMP: NHS_SpatialJoin_CrashCount",
+            "type": "Map Service",
+            "id": "20eb315452c146f4b6ff4d41d8496b02",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/NHS_SpatialJoin_CrashCount/MapServer",
+            "children": [
+                {
+                    "name": "Snapped Data",
+                    "type": "Web Map",
+                    "id": "d7b5c6ebcf334e52be4888ceefb7eae4",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=d7b5c6ebcf334e52be4888ceefb7eae4",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "CrashCount_HotSpot_05miles",
+            "type": "Feature Service",
+            "id": "79d6d8e085ae4a7bb9daf8adb268a291",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "Snapped_002",
+            "type": "Map Service",
+            "id": "73980e7c14954403885721c6686fc544",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Snapped_002/MapServer",
+            "children": []
+        },
+        {
+            "name": "HPMS - 2008-2016 FARS Snapped .02 Miles",
+            "type": "Map Service",
+            "id": "c0e6310ac9374300ac0dfa9abb639845",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2008_2016_FARS_Snapped_02_Miles/MapServer",
+            "children": []
+        },
+        {
+            "name": "HPMS - 0.05 Miles Dissolved by Route (MI)",
+            "type": "Map Service",
+            "id": "89f7bbafda3545d28c33183cc3dcedfe",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2016_005_Dis_Merge_MapImage/MapServer",
+            "children": [
+                {
+                    "name": "NHTSA - FARS Crash Viewer Web Map (NEW)",
+                    "type": "Web Map",
+                    "id": "e5ea6339e5f24fd09460509bb239c42d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e5ea6339e5f24fd09460509bb239c42d",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS - 2016 Filtered & Unsnapped",
+            "type": "Feature Service",
+            "id": "ba27afe22bc8477fabd8217248d05f9e",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016_Filtered_Unsnapped/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "test_map_tour",
+            "type": "Feature Service",
+            "id": "885bfaa3ebcb419b8a070696a33542c5",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/test_map_tour/FeatureServer",
+            "children": [
+                {
+                    "name": "Map Tour2",
+                    "type": "Web Map",
+                    "id": "e17cac50c8e24c0e8dda99615823839c",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e17cac50c8e24c0e8dda99615823839c",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_Route2_002",
+            "type": "Map Service",
+            "id": "a03060dcbbb54e8396597612f6a34e1e",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route2_002/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot Route2_002",
+                    "type": "Web Map",
+                    "id": "eda72f171a66463e94145c283ca2c612",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=eda72f171a66463e94145c283ca2c612",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_Route3_002",
+            "type": "Map Service",
+            "id": "b08b4ae64a3d484a90d5ea1446da169a",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route3_002/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot Route3_002",
+                    "type": "Web Map",
+                    "id": "e8311b88706e4d7493999ae4c8515e63",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e8311b88706e4d7493999ae4c8515e63",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_Route3_005",
+            "type": "Map Service",
+            "id": "9be9c90849d44fa996b829e0affc5105",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route3_005/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot Route3_005",
+                    "type": "Web Map",
+                    "id": "2ec6f15916bb480ab5c8864109933d64",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ec6f15916bb480ab5c8864109933d64",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "CrashCount_HotSpot_05miles_Tile",
+            "type": "Map Service",
+            "id": "07339f49790d4a508c0e66bb2be901e6",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_05miles_Tile/MapServer",
+            "children": [
+                {
+                    "name": "CrashCount_005mile_TILE",
+                    "type": "Web Map",
+                    "id": "f0079c637deb4ff6b1b18f35d4b57f11",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=f0079c637deb4ff6b1b18f35d4b57f11",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS 2016: I-95 Segmented and Buffered",
+            "type": "Map Service",
+            "id": "237f3d0f52c24a0c8c0385e26fbdb6d2",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2016_i95_Buffer_withFARS/MapServer",
+            "children": []
+        },
+        {
+            "name": "FARS2016_DBSCAN_3mfc_5000ft",
+            "type": "Feature Service",
+            "id": "1a388fdce89048119bc2f95c2d5e25eb",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft/FeatureServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data",
+            "type": "Feature Service",
+            "id": "cc56c2a7862349fc9168c57b7a870558",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Summarize_FARS_Accidents_2002___2016_in_TIGER_Road_Data/FeatureServer",
+            "children": [
+                {
+                    "name": "Accidnet Processing",
+                    "type": "Web Map",
+                    "id": "98621991bcf74783a92d30c8f9c258d9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=98621991bcf74783a92d30c8f9c258d9",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_002miles",
+            "type": "Map Service",
+            "id": "6be2a115001e4751ad83f31b9b8fe3dc",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_002miles/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot_TestHPMS",
+                    "type": "Web Map",
+                    "id": "ccbdc58aab1d4e5fa35ab66fb1f99aec",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=ccbdc58aab1d4e5fa35ab66fb1f99aec",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NotSnapped_005",
+            "type": "Map Service",
+            "id": "a9d67a19180342f19c8f2e647e23eaca",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/NotSnapped_005/MapServer",
+            "children": []
+        },
+        {
+            "name": "Hot Spot - Crash Count 0.05 Miles (Non-Dissolved)",
+            "type": "Vector Tile Service",
+            "id": "da04d22df56d46fcb96b1319a86b2a8f",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016_005_HotSpot_CrashCount/VectorTileServer",
+            "children": [
+                {
+                    "name": "NHTSA - FARS Crash Viewer Web Map (NEW)",
+                    "type": "Web Map",
+                    "id": "e5ea6339e5f24fd09460509bb239c42d",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e5ea6339e5f24fd09460509bb239c42d",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Snapped_005",
+            "type": "Map Service",
+            "id": "027bbe6020a4497c82dfe64012e0ac4e",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Snapped_005/MapServer",
+            "children": []
+        },
+        {
+            "name": "FARS - 2016 Filtered Unsuccessful Snap",
+            "type": "Feature Service",
+            "id": "dcde0eb339964b4996e47a19547adbdf",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016_Filtered_Unsuccessful_Snap/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "FARS_Snapped",
+            "type": "Feature Service",
+            "id": "0705c45ef03f4cdaafcdaa179a7a71b0",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_Snapped/FeatureServer",
+            "children": [
+                {
+                    "name": "Snapped Web Map",
+                    "type": "Web Map",
+                    "id": "54fcbfe126a240d3a82354d01f90eb0e",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=54fcbfe126a240d3a82354d01f90eb0e",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Florida Interstate",
+            "type": "Feature Service",
+            "id": "7f4eb0b1913e4938a1eed7601623e3d1",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Florida_Interstate/FeatureServer",
+            "children": []
+        },
+        {
+            "name": "HotSpot_Route1_002",
+            "type": "Map Service",
+            "id": "d43d7cacc19641a2b11026a4696584a8",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route1_002/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot Route1_002",
+                    "type": "Web Map",
+                    "id": "e2a00c548b454931b3f631e477a782c2",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=e2a00c548b454931b3f631e477a782c2",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HotSpot_Route1_005",
+            "type": "Map Service",
+            "id": "7c6810d047854689a2ba432207ba0541",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HotSpot_Route1_005/MapServer",
+            "children": [
+                {
+                    "name": "HotSpot Route1_005",
+                    "type": "Web Map",
+                    "id": "5e5f2681eb444e3885181cd164dd231e",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=5e5f2681eb444e3885181cd164dd231e",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "CrashCount_HotSpot_02miles_Tile",
+            "type": "Map Service",
+            "id": "347491078b4c4d65a514bf1b6bc0975a",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/CrashCount_HotSpot_02miles_Tile/MapServer",
+            "children": [
+                {
+                    "name": "CrashCount_002mile_TILE",
+                    "type": "Web Map",
+                    "id": "311f4a8b0b344dffade8683067e7e318",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=311f4a8b0b344dffade8683067e7e318",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS 2007-2016: I-95 States",
+            "type": "Map Service",
+            "id": "6ba9a62053f74a9aae38f6b50d28c190",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2007_2016_i95_States/MapServer",
+            "children": [
+                {
+                    "name": "HPMS & FARS: I-95 Web Map",
+                    "type": "Web Map",
+                    "id": "0dca82d9e70d4c10a957d977cbeb8935",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0dca82d9e70d4c10a957d977cbeb8935",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS 2007-2016: I-95 States Along Interstate",
+            "type": "Map Service",
+            "id": "e41a03df19c9406f8539beb964df161c",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/FARS_2007_2016_i95_States_Interstate_AlbersProj/MapServer",
+            "children": [
+                {
+                    "name": "HPMS & FARS: I-95 Web Map",
+                    "type": "Web Map",
+                    "id": "0dca82d9e70d4c10a957d977cbeb8935",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0dca82d9e70d4c10a957d977cbeb8935",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS 2008-2016: I-95 Filtered Outside",
+            "type": "Feature Service",
+            "id": "19302531c248492a83b427d831653b76",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2008_2016_i95_Filtered_Outside/FeatureServer",
+            "children": [
+                {
+                    "name": "HPMS & FARS: I-95 Web Map",
+                    "type": "Web Map",
+                    "id": "0dca82d9e70d4c10a957d977cbeb8935",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0dca82d9e70d4c10a957d977cbeb8935",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS_2016",
+            "type": "Feature Service",
+            "id": "fd0652a357974c99a4da595fbcb77711",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2016/FeatureServer",
+            "children": [
+                {
+                    "name": "Snapped vs Not-Snapped Comparison",
+                    "type": "Web Map",
+                    "id": "0b57b3800e5444ae8d3c33d45757b294",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=0b57b3800e5444ae8d3c33d45757b294",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS2016_DBSCAN_3mfc_5000ft_StdDist",
+            "type": "Feature Service",
+            "id": "6b76b155c9904c42989564c1c465efb6",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS2016_DBSCAN_3mfc_5000ft_StdDist/FeatureServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "Group_Layer_FARS_2016_and_HPMS_Road_Segments",
+            "type": "Feature Service",
+            "id": "e7b72995b5c245c98b6988641e122c8a",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Group_Layer_FARS_2016_and_HPMS_Road_Segments/FeatureServer",
+            "children": [
+                {
+                    "name": "Clustering Analysis of Fatal Interstate Accidents",
+                    "type": "Web Map",
+                    "id": "2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2ca92ba0daff4b87a7e7e8dd85cf9409",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "NHTSA Fatal Highway Crash Events in 2016",
+            "type": "Feature Service",
+            "id": "668d3b339cdf4292bfbc2f6f00a21653",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/Fatal_Highway_Crash_Events_in_2016/FeatureServer",
+            "children": [
+                {
+                    "name": "NHTSA Basic Starting Map",
+                    "type": "Web Map",
+                    "id": "2a3ab1a04d254f9c84df16c8805270c9",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=2a3ab1a04d254f9c84df16c8805270c9",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS 2016: I-95",
+            "type": "Map Service",
+            "id": "0b937a37ae254b5983b8767ce1d43bf5",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/HPMS_2016_i95/MapServer",
+            "children": [
+                {
+                    "name": "Test Map - APRIL",
+                    "type": "Web Map",
+                    "id": "972bf46d54f748d39fcf992ff8dab444",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=972bf46d54f748d39fcf992ff8dab444",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "FARS 2016",
+            "type": "Feature Service",
+            "id": "1f110cee668b42d4b797952ef34e4598",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/FARS_2016/FeatureServer",
+            "children": [
+                {
+                    "name": "Data Preparation Web Map",
+                    "type": "Web Map",
+                    "id": "b48fc9ec6c94426b99ec99965b0f3800",
+                    "url": "https://nhtsa.esriemcs.com/portal/home/item.html?id=b48fc9ec6c94426b99ec99965b0f3800",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "HPMS_2017",
+            "type": "Feature Service",
+            "id": "d12e9c0beffd4122b91bafebefe406c1",
+            "url": "https://nhtsa.esriemcs.com/hosted/rest/services/Hosted/HPMS_2017/FeatureServer",
+            "children": []
+        }
+    ]
+}
