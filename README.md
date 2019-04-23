@@ -15,3 +15,5 @@ The layer_item_dependencies.py script gathers all of the specified user's layers
 ## JavaScript
 
 The lightweight JS application visualizes the JSON using D3 as an interactive tree diagram following Mike Bostock's [Collapsible Tree](https://observablehq.com/@d3/collapsible-tree) example. There are a few enhancements that have been made, such as a legend to identify item types, a clickable button to change between different views of the dataset, and a hover-over providing more information on each item.
+
+![alt text](https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/app.png "Screenshot of App")
