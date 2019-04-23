@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <style>
-
 .node circle {
   fill: #fff;
   stroke: steelblue;
   stroke-width: 3px;
 }
-
 .node text {
   font: 12px sans-serif;
 }
-
 .link {
   fill: none;
   stroke: #d9d9d9;
@@ -27,13 +24,12 @@
     margin-right: .5em;
     width: 10px;
 }
-
   
 .app { background: #FF7F0E;}
 .map { background: #4682B4;}
 .layer { background: #F0E68c;
 }
-
+  
 #legend{
     overflow:hidden;
     border: 1px solid black;
@@ -45,6 +41,31 @@
     opacity: 0.8;
 }
 
+  .button{
+    background-color: #f44336;
+    border:none;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 140px;
+    left: 13px;
+    border-radius: 4px;
+  }
+  
+  .data_view:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+  }
+  
 div.tooltip {   
   position: absolute;     
   text-align: left;
@@ -61,8 +82,6 @@ div.tooltip {
   word-wrap: break-word;
   overflow-x: auto;
 }
-
-
 </style>
 
 <body>
@@ -74,29 +93,48 @@ div.tooltip {
 	   <div class="legend"> <p class="item-type"><span class="key-dot layer"></span>Layer</p> </div>
 	</div>
   
+  <button id="appButton" class="button data_view">Change View</button>
+  
 <!-- load the d3.js library -->	
 <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
 <script> 
+var view = "https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/app_data.json";
+var button = document.getElementById('appButton');
+button.onclick = function() {viewChange(view);};
+app_runner(view);
   
-d3.json("https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/app_data.json", function(error, data) {
+// Change the data source used in the view
+function viewChange(view) {
+ var app_view = "https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/app_data.json";
+ var layer_view ="https://raw.githubusercontent.com/tatornator12/Item-Dependencies-Tree/master/layer_data.json";
+  
+  if (view == app_view) {
+    window['view'] = layer_view;
+    app_runner(layer_view);
+  } else if (view == layer_view) {
+    window['view'] = app_view;
+    app_runner(app_view);
+  }
 
+};
+  
+
+function app_runner(view){
+d3.json(view, function(error, data) {
+// Remove previous view
+d3.select("svg").remove();
 // Calculate total nodes, max label length
 var totalNodes = 0;
 var maxLabelLength = 0;
-
 // Set the dimensions and margins of the diagram
 var margin = {top: 20, right: 90, bottom: 30, left: 150},
     width = Math.max(960, window.innerWidth) - margin.left - margin.right,
     height = Math.max(500, window.innerHeight) - margin.top - margin.bottom;
-
 // A recursive helper function for performing some setup by walking through all nodes
-
     function visit(parent, visitFn, childrenFn) {
         if (!parent) return;
-
         visitFn(parent);
-
         var children = childrenFn(parent);
         if (children) {
             var count = children.length;
@@ -105,20 +143,17 @@ var margin = {top: 20, right: 90, bottom: 30, left: 150},
             }
         }
     }
-
 // Call visit function to establish maxLabelLength
     visit(data, function(d) {
         totalNodes++;
         maxLabelLength = Math.max(d.name.length, maxLabelLength);
-
     }, function(d) {
         return d.children && d.children.length > 0 ? d.children : null;
     });
-
-
 // append the svg object to the body of the page
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
+
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
@@ -137,11 +172,8 @@ var div = d3.select("body").append("div")
 var i = 0,
     duration = 750,
     root;
-
 // declares a tree layout and assigns the size
 var treemap = d3.tree().size([height, width]);
-
-
   
 // Assigns parent, children, height, depth
 root = d3.hierarchy(data, function(d) { return d.children; });
@@ -150,12 +182,9 @@ root.y0 = 0;
 root.sort(function(a, b) {
             return b.data.name.toLowerCase() < a.data.name.toLowerCase() ? 1 : -1;
         });
-
 // Collapse after the second level
 root.children.forEach(collapse);
-
 update(root);
-
 // Collapse the node and all it's children
 function collapse(d) {
   if(d.children) {
@@ -164,26 +193,20 @@ function collapse(d) {
     d.children = null
   }
 }
-
   
 function update(source) {
   
   // Assigns the x and y position for the nodes
   var data = treemap(root);
-
   // Compute the new tree layout.
   var nodes = data.descendants(),
       links = data.descendants().slice(1);
-
   // Normalize for fixed-depth.
   nodes.forEach(function(d){ d.y = (d.depth * (maxLabelLength * 6))});
-
   // ****************** Nodes section ***************************
-
   // Update the nodes...
   var node = svg.selectAll('g.node')
       .data(nodes, function(d) {return d.id || (d.id = ++i); });
-
   // Enter any new modes at the parent's previous position.
   var nodeEnter = node.enter().append('g')
       .attr('class', 'node')
@@ -191,16 +214,15 @@ function update(source) {
         return "translate(" + source.y0 + "," + source.x0 + ")";
     })
     .on('click', click);
-
   // Add Circle for the nodes
   nodeEnter.append('circle')
       .attr('class', 'node')
       .attr('r', 1e-6)
       .style("fill", function(d) {
-          return d.data.type == "Web Mapping Application" ? "lightsalmon" : d.data.type == "Web Map" ? "lightsteelblue" : typeof d.data.type == "undefined" ? "#fff" : "lightyellow";
+          return d.data.type == "Web Mapping Application" || d.data.type == "Site Application" ? "lightsalmon" : d.data.type == "Web Map" ? "lightsteelblue" : typeof d.data.type == "undefined" ? "#fff" : "lightyellow";
       })
       .style("stroke", function(d) {
-          return d.data.type == "Web Mapping Application" ? "darkorange" : d.data.type == "Web Map" ? "steelblue" : typeof d.data.type == "undefined" ? "lightslategrey" : "khaki";
+          return d.data.type == "Web Mapping Application" || d.data.type == "Site Application" ? "darkorange" : d.data.type == "Web Map" ? "steelblue" : typeof d.data.type == "undefined" ? "lightslategrey" : "khaki";
       })
         .on("mouseover", function(d) {
           div.transition()
@@ -216,7 +238,6 @@ function update(source) {
             .duration(3000)
             .style("opacity", 0);
         });
-
   // Add labels for the nodes
   nodeEnter.append('text')
       .attr("dy", ".35em")
@@ -235,23 +256,19 @@ function update(source) {
   
   // UPDATE
   var nodeUpdate = nodeEnter.merge(node);
-
   // Transition to the proper position for the node
   nodeUpdate.transition()
     .duration(duration)
     .attr("transform", function(d) { 
         return "translate(" + d.y + "," + d.x + ")";
      });
-
   // Update the node attributes and style
   nodeUpdate.select('circle.node')
     .attr('r',8)
     .style("fill", function(d) {
-          return d.data.type == "Web Mapping Application" ? "lightsalmon" : d.data.type == "Web Map" ? "lightsteelblue" : typeof d.data.type == "undefined" ? "#fff" : "lightyellow";
+          return d.data.type == "Web Mapping Application" || d.data.type == "Site Application" ? "lightsalmon" : d.data.type == "Web Map" ? "lightsteelblue" : typeof d.data.type == "undefined" ? "#fff" : "lightyellow";
     })
     .attr('cursor', 'pointer');
-
-
   // Remove any exiting nodes
   var nodeExit = node.exit().transition()
       .duration(duration)
@@ -259,21 +276,16 @@ function update(source) {
           return "translate(" + source.y + "," + source.x + ")";
       })
       .remove();
-
   // On exit reduce the node circles size to 0
   nodeExit.select('circle')
     .attr('r', 1e-6);
-
   // On exit reduce the opacity of text labels
   nodeExit.select('text')
     .style('fill-opacity', 1e-6);
-
   // ****************** links section ***************************
-
   // Update the links...
   var link = svg.selectAll('path.link')
       .data(links, function(d) { return d.id; });
-
   // Enter any new links at the parent's previous position.
   var linkEnter = link.enter().insert('path', "g")
       .attr("class", "link")
@@ -281,15 +293,12 @@ function update(source) {
         var o = {x: source.x0, y: source.y0}
         return diagonal(o, o)
       });
-
   // UPDATE
   var linkUpdate = linkEnter.merge(link);
-
   // Transition back to the parent element position
   linkUpdate.transition()
       .duration(duration)
       .attr('d', function(d){ return diagonal(d, d.parent) });
-
   // Remove any exiting links
   var linkExit = link.exit().transition()
       .duration(duration)
@@ -298,21 +307,17 @@ function update(source) {
         return diagonal(o, o)
       })
       .remove();
-
   // Store the old positions for transition.
   nodes.forEach(function(d){
     d.x0 = d.x;
     d.y0 = d.y;
   });
-
   // Creates a curved (diagonal) path from parent to the child nodes
   function diagonal(s, d) {
-
     path = `M ${s.y} ${s.x}
             C ${(s.y + d.y) / 2} ${s.x},
               ${(s.y + d.y) / 2} ${d.x},
               ${d.y} ${d.x}`
-
     return path
   }
   
@@ -328,7 +333,6 @@ function update(source) {
     update(d);
   }
 }
-});
-
+});};
 </script>
 </body>
