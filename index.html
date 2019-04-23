@@ -229,7 +229,7 @@ function update(source) {
             .duration(200)
             .style("opacity", .9)
             .style("stroke", "black");
-          div.html(typeof d.data.type == "undefined" ? "User has " + data.children.length + " applications.": "<i>" + "<font size = 2>" + d.data.type + "</font>" + "</i>" + "<br/>" + "<br/>" + d.data.id + "<br/>" + "<br/>" + '<a href= "' + d.data.url + '" >' + d.data.url + "</a>")
+          div.html(typeof d.data.type == "undefined" ? "User has " + data.children.length + " items.": "<i>" + "<font size = 2>" + d.data.type + "</font>" + "</i>" + "<br/>" + "<br/>" + d.data.id + "<br/>" + "<br/>" + '<a href= "' + d.data.url + '" >' + d.data.url + "</a>")
             .style("left", (d3.event.pageX - 110) + "px")
             .style("top", (d3.event.pageY - 140) + "px");
         })
