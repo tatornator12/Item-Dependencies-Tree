@@ -14,8 +14,16 @@ this_dir = os.getcwd()
 start_time = time.time()
 
 
-# Extract Operational Layers from a Web Map
 def mapSearch(map_itemId, item_list):
+    '''Extract Operational Layers from a Web Map
+
+    Arguments:
+        map_itemId {[type]} -- [description]
+        item_list {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    '''
     # Get Web Map item
     print("     Web Map found: " + map_itemId + ". Retrieving operational layers.")
     map_item = gis.content.get(map_itemId)
