@@ -65,7 +65,7 @@ def webpageSearch(webpage, item_list):
     app_url_id = parsed.query[6:]
 
     # Confirm the ID
-    if app_url_id.isalnum() == True and len(app_url_id) == 32:
+    if app_url_id.isalnum() is True and len(app_url_id) == 32:
 
         # Get Web App item
         print(f'     Web App found: {app_url_id}')
@@ -107,7 +107,7 @@ def webappSearch(item, item_list):
 
     # Search through values for Webmaps and Webpages
     for value in set(all_values):
-        if str(value).isalnum() == True and len(str(value)) == 32:
+        if str(value).isalnum() is True and len(str(value)) == 32:
             mapSearch(value, item_list)
         elif str(value).startswith("http"):
             webpageSearch(value, item_list)
