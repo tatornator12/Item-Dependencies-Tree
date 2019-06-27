@@ -150,7 +150,8 @@ if __name__ == "__main__":
         webappSearch(app_item, item_details['children'])
 
     # Write result to text file
-    dependencies_file = os.path.join(this_dir, 'dependencies.txt')
+    out_dir = settings.output_dir if settings.output_dir else this_dir
+    dependencies_file = os.path.join(out_dir, f'app_{settings.data_name}.json')
     with open(dependencies_file, 'w') as outfile:
         outfile.write(json.dumps(item_dict, indent=4))
 
