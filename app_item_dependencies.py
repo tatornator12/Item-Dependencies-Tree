@@ -32,17 +32,22 @@ def mapSearch(map_itemId, item_list):
         if map_item.type == 'Web Map' or map_item.type == 'Web Scene':
 
             # Build Dictionary for Web Map
-            map_item_details = {'name': map_item.title, 'type': map_item.type, 'id': map_item.id,
-                                'url': map_item.homepage, 'children': None}
+            map_item_details = {'name': map_item.title, 'type': map_item.type,
+                                'id': map_item.id, 'url': map_item.homepage,
+                                'children': None}
 
             # Get Web Map as JSON
             wm_json = map_item.get_data()
 
             # Build List of Dictionaries for Web Map Op Layers
             wm_children = [
-                {'name': op['title'], 'type': op['layerType'], 'id': [op['itemId'] if 'itemId' in op.keys() else ''][0],
-                 'url': [value for key, value in op.items() if 'url' in key.lower()][0]} for op in
-                wm_json['operationalLayers']]
+                {
+                    'name': op['title'], 'type': op['layerType'],
+                    'id': [op['itemId'] if 'itemId' in op.keys() else ''][0],
+                    'url': [value for key, value in op.items() if 'url' in
+                            key.lower()][0]
+                } for op in wm_json['operationalLayers']
+            ]
 
             # Add Web Map Op Layers Dictionary to List
             map_item_details['children'] = wm_children
@@ -67,8 +72,9 @@ def webpageSearch(webpage, item_list):
         app_url_item = gis.content.get(app_url_id)
 
         # Build Dictionary for Web App
-        app_item_details = {"name": app_url_item.title, "type": app_url_item.type, "id": app_url_item.id,
-                            "url": app_url_item.homepage, "children": []}
+        app_item_details = {'name': app_url_item.title,
+                            'type': app_url_item.type, 'id': app_url_item.id,
+                            'url': app_url_item.homepage, 'children': []}
 
         # Search through JSON of embedded apps
         print('     Searching through the JSON of the embedded web app.......')
@@ -88,9 +94,9 @@ def get_values_recurs(dict_):
                 output += get_values_recurs(value)
             elif isinstance(value, list):
                 for entry in value:
-                    output += get_values_recurs({"_":entry})
+                    output += get_values_recurs({'_': entry})
             else:
-                output += [value,]
+                output += [value, ]
     return output
 
 
@@ -108,9 +114,9 @@ def webappSearch(item, item_list):
 
 
 # Search for all applications for user
-def get_apps_to_check():
-
-    for app in gis.content.search(query='owner:username', item_type='application', max_items=10000):
+def get_apps_to_check(username):
+    for app in gis.content.search(query=f'owner:{username}',
+                                  item_type='application', max_items=10000):
         yield app
 
 
@@ -133,7 +139,8 @@ if __name__ == "__main__":
     for app_item in get_apps_to_check():
 
         # Create entry for Web App item
-        item_details = {'name': app_item.title, 'type': app_item.type, 'id': app_item.id, 'url': app_item.homepage,
+        item_details = {'name': app_item.title, 'type': app_item.type,
+                        'id': app_item.id, 'url': app_item.homepage,
                         'children': []}
 
         # Append entry to master dictionary
