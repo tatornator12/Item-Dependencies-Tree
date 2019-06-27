@@ -129,15 +129,14 @@ if __name__ == "__main__":
     print('Executing process.........')
 
     # Connect to Portal
-    gis = GIS('https://my.portal.com/portal', username, passowrd, verify_cert=False)
+    username = settings.username
     print('Connecting to Portal to begin search for applications....')
+    gis = GIS(settings.url, username, settings.password, verify_cert=False)
 
     # Create the master dictionary
     item_dict = {'name': username, 'children': []}
-
     # Search through Web App items
-    for app_item in get_apps_to_check():
-
+    for app_item in get_apps_to_check(username):
         # Create entry for Web App item
         item_details = {'name': app_item.title, 'type': app_item.type,
                         'id': app_item.id, 'url': app_item.homepage,
