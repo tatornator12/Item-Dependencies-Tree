@@ -25,11 +25,11 @@ def mapSearch(map_itemId, item_list):
         [type] -- [description]
     '''
     # Get Web Map item
-    print("     Web Map found: " + map_itemId + ". Retrieving operational layers.")
+    print(f'     Web Map found: {map_itemId}. Retrieving operational layers.')
     map_item = gis.content.get(map_itemId)
 
     if map_item:
-        if map_item.type == "Web Map" or map_item.type == "Web Scene":
+        if map_item.type == 'Web Map' or map_item.type == 'Web Scene':
 
             # Build Dictionary for Web Map
             map_item_details = {'name': map_item.title, 'type': map_item.type, 'id': map_item.id,
@@ -63,7 +63,7 @@ def webpageSearch(webpage, item_list):
     if app_url_id.isalnum() == True and len(app_url_id) == 32:
 
         # Get Web App item
-        print("     Web App found: " + app_url_id)
+        print(f'     Web App found: {app_url_id}')
         app_url_item = gis.content.get(app_url_id)
 
         # Build Dictionary for Web App
@@ -71,7 +71,7 @@ def webpageSearch(webpage, item_list):
                             "url": app_url_item.homepage, "children": []}
 
         # Search through JSON of embedded apps
-        print("     Searching through the JSON of the embedded web app.......")
+        print('     Searching through the JSON of the embedded web app.......')
         webappSearch(app_url_item, app_item_details['children'])
 
         # Append each Web App as a child to the app item
@@ -117,14 +117,14 @@ def get_apps_to_check():
 if __name__ == "__main__":
 
     # Set Logger Time
-    logger_date = datetime.datetime.fromtimestamp(start_time).strftime('%Y_%m_%d')
-    logger_time = datetime.datetime.fromtimestamp(start_time).strftime('%H_%M_%S')
-    print('Script Started: {} - {}\n'.format(logger_date, logger_time))
+    logger_date = datetime.fromtimestamp(start_time).strftime('%Y_%m_%d')
+    logger_time = datetime.fromtimestamp(start_time).strftime('%H_%M_%S')
+    print(f'Script Started: {logger_date} - {logger_time}\n')
     print('Executing process.........')
 
     # Connect to Portal
-    print("Connecting to Portal to begin search for applications....")
     gis = GIS('https://my.portal.com/portal', username, passowrd, verify_cert=False)
+    print('Connecting to Portal to begin search for applications....')
 
     # Create the master dictionary
     item_dict = {'name': username, 'children': []}
@@ -140,7 +140,7 @@ if __name__ == "__main__":
         item_dict['children'].append(item_details)
 
         # Call web app JSON function
-        print("Searching through " + app_item.title + " JSON.......")
+        print(f'Searching through {app_item.title} JSON.......')
         webappSearch(app_item, item_details['children'])
 
     # Write result to text file
@@ -148,5 +148,5 @@ if __name__ == "__main__":
     with open(dependencies_file, 'w') as outfile:
         outfile.write(json.dumps(item_dict, indent=4))
 
-    print("Process completed.")
-    print("\nProgram Run Time: %.2f Seconds" % (time.time() - start_time))
+    print('Process completed.')
+    print(f'\nProgram Run Time: {(time.time() - start_time):.2f} Seconds')
