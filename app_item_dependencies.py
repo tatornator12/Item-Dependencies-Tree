@@ -8,7 +8,7 @@ from arcgis.gis import GIS
 import settings
 
 # Get Script Directory
-this_dir = r'C:\path\to\directory'
+this_dir = os.getcwd()
 
 # Get Start Time - UTC Seconds
 start_time = time.time()
