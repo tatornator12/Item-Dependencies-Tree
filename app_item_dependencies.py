@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from datetime import datetime
+from datetime import datetime as dt
 from urllib.parse import urlparse
 from arcgis.gis import GIS
 
@@ -123,8 +123,8 @@ def get_apps_to_check(username):
 if __name__ == "__main__":
 
     # Set Logger Time
-    logger_date = datetime.fromtimestamp(start_time).strftime('%Y_%m_%d')
-    logger_time = datetime.fromtimestamp(start_time).strftime('%H_%M_%S')
+    logger_date = dt.fromtimestamp(start_time).strftime('%Y_%m_%d')
+    logger_time = dt.fromtimestamp(start_time).strftime('%H_%M_%S')
     print(f'Script Started: {logger_date} - {logger_time}\n')
     print('Executing process.........')
 
