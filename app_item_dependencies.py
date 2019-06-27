@@ -1,9 +1,11 @@
 import json
 import os
 import time
-import datetime
-from arcgis.gis import GIS
+from datetime import datetime
 from urllib.parse import urlparse
+from arcgis.gis import GIS
+
+import settings
 
 # Get Script Directory
 this_dir = r'C:\path\to\directory'
