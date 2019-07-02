@@ -133,6 +133,14 @@ if __name__ == "__main__":
     print('Connecting to Portal to begin search for applications....')
     gis = GIS(settings.url, username, settings.password, verify_cert=False)
 
+    # Portal tier auth
+    if settings.username:
+        gis = GIS(settings.url, settings.username, settings.password,
+                  verify_cert=False)
+    # Web tier auth
+    else:
+        gis = GIS(settings.url, verify_cert=False)
+    print(f'Logged in as: {gis.properties.user.username}')
     username = settings.item_owner if settings.item_owner else settings.username
     print(f'Getting {username}\'s content....')
     # Create the master dictionary
