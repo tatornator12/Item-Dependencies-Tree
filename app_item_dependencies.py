@@ -129,10 +129,7 @@ if __name__ == "__main__":
     print('Executing process.........')
 
     # Connect to Portal
-    username = settings.username
     print('Connecting to Portal to begin search for applications....')
-    gis = GIS(settings.url, username, settings.password, verify_cert=False)
-
     # Portal tier auth
     if settings.username:
         gis = GIS(settings.url, settings.username, settings.password,
