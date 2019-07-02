@@ -133,6 +133,8 @@ if __name__ == "__main__":
     print('Connecting to Portal to begin search for applications....')
     gis = GIS(settings.url, username, settings.password, verify_cert=False)
 
+    username = settings.item_owner if settings.item_owner else settings.username
+    print(f'Getting {username}\'s content....')
     # Create the master dictionary
     item_dict = {'name': username, 'children': []}
     # Search through Web App items
